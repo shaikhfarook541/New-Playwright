@@ -1,0 +1,410 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic:
+      - text:           
+      - generic:
+        - navigation [ref=e3]:
+          - generic [ref=e4]: 
+          - text: Configured for PI and Quality | technical support | log out
+        - navigation [ref=e5]:
+          - navigation [ref=e6] [cursor=pointer]:
+            - listitem [ref=e7]
+          - list [ref=e9]:
+            - listitem [ref=e10]
+            - listitem [ref=e11]:
+              - button "Add Facility" [ref=e12]
+            - listitem [ref=e13]:
+              - link "SQA_WC" [ref=e14] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=e15]:
+              - link "Prabal Biswas" [ref=e16] [cursor=pointer]:
+                - /url: "#"
+                - img [ref=e17]
+                - text: Prabal Biswas
+    - generic [ref=e18]:
+      - list [ref=e20]:
+        - listitem [ref=e21] [cursor=pointer]:
+          - generic "Search" [ref=e22]: 
+        - listitem [ref=e23] [cursor=pointer]:
+          - generic "Calendar" [ref=e24]: 
+        - listitem [ref=e25] [cursor=pointer]: 
+        - listitem [ref=e26] [cursor=pointer]:
+          - generic "User Inbox" [ref=e27]: 
+          - generic [ref=e28]: "71"
+        - listitem [ref=e29] [cursor=pointer]:
+          - generic "My Reports" [ref=e30]: 
+        - listitem [ref=e31] [cursor=pointer]:
+          - generic "Worklist" [ref=e32]: 
+        - listitem [ref=e33] [cursor=pointer]
+        - listitem [ref=e34] [cursor=pointer]:
+          - generic "Facility Admin" [ref=e35]: 
+        - listitem [ref=e36] [cursor=pointer]:
+          - generic "NHS Admin" [ref=e37]: 
+        - listitem [ref=e38] [cursor=pointer]:
+          - img "Resource Center" [ref=e40]
+          - generic [ref=e42]: "6"
+      - generic [ref=e44]:
+        - generic [ref=e45]:
+          - generic [ref=e46]:
+            - generic [ref=e47]: SEARCH
+            - button "+ Add New" [ref=e49] [cursor=pointer]
+          - generic [ref=e52]:
+            - textbox [ref=e53]
+            - generic [ref=e54]: 
+            - generic [ref=e55] [cursor=pointer]: 
+          - generic [ref=e56]:
+            - generic [ref=e57]:
+              - text: Search For
+              - combobox [ref=e58]:
+                - option "Patient" [selected]
+                - option "Physician"
+                - option "Clinician"
+                - option "Insurance"
+            - generic [ref=e59]:
+              - text: Search By
+              - combobox [ref=e60]:
+                - option "First Name"
+                - option "Last Name" [selected]
+                - option "Medical Record No."
+                - option "DOB (mmddyyyy)"
+                - option "Account Number"
+                - option "Phone Number"
+          - generic [ref=e61]:
+            - link "Show Inactive Patients" [ref=e63] [cursor=pointer]:
+              - /url: "#"
+            - button "Search" [ref=e65] [cursor=pointer]
+        - generic [ref=e67]:
+          - generic:
+            - generic:
+              - list
+      - main [ref=e71]:
+        - generic [ref=e74]:
+          - list [ref=e77]:
+            - listitem [ref=e78]:
+              - generic [ref=e79]: Schedule Visit
+            - listitem [ref=e80]:
+              - generic [ref=e81]: "| Schedule Reserved Time"
+            - listitem [ref=e82]:
+              - generic [ref=e83]: "| System Messages"
+            - listitem [ref=e84]:
+              - generic [ref=e85]: "| Batch Utilities"
+              - list [ref=e86]:
+                - listitem [ref=e87]:
+                  - generic [ref=e88]: Batch Print
+                - listitem [ref=e89]:
+                  - generic [ref=e90]: Batch Upload
+                - listitem [ref=e91]:
+                  - generic [ref=e92]: Batch Letters
+                - listitem [ref=e93]:
+                  - generic [ref=e94]: Batch Finalize
+                - listitem [ref=e95]:
+                  - generic [ref=e96]: Batch Discharge
+            - listitem [ref=e97]:
+              - generic [ref=e98]: "| Add"
+              - list [ref=e99]:
+                - listitem [ref=e100]:
+                  - generic [ref=e101]: Add Patient
+                - listitem [ref=e102]:
+                  - generic [ref=e103]: Add Physician
+                - listitem [ref=e104]:
+                  - generic [ref=e105]: Add Insurance
+                - listitem [ref=e106]:
+                  - generic [ref=e107]: Add Clinician
+                - listitem [ref=e108]:
+                  - generic [ref=e109]: Add Care Center
+                - listitem [ref=e110]:
+                  - generic [ref=e111]: Add Task
+                - listitem [ref=e112]:
+                  - generic [ref=e113]: Add Physical Therapist
+            - listitem [ref=e114]:
+              - generic [ref=e115]: "| Scheduler Admin"
+              - list [ref=e116]:
+                - listitem [ref=e117]:
+                  - generic [ref=e118]: Visit Type and Time Admin
+                - listitem [ref=e119]:
+                  - generic [ref=e120]: Color Coding Admin
+                - listitem [ref=e121]:
+                  - generic [ref=e122]: Visit Info Admin
+                - listitem [ref=e123]:
+                  - generic [ref=e124]: Office Hours Admin
+                - listitem [ref=e125]:
+                  - generic [ref=e126]: Cancellation Reason Admin
+                - listitem [ref=e127]:
+                  - generic [ref=e128]: Calendar Filter Admin
+                - listitem [ref=e129]:
+                  - generic [ref=e130]: General Admin
+            - listitem [ref=e131]:
+              - generic [ref=e132]: "| Faxing"
+              - list [ref=e133]:
+                - listitem [ref=e134]:
+                  - generic [ref=e135]: Inbound Faxing
+                - listitem [ref=e136]:
+                  - generic [ref=e137]: Outbound Faxing
+          - generic:
+            - generic [ref=e138]:
+              - generic [ref=e139]:
+                - generic [ref=e140]:
+                  - tablist [ref=e142]:
+                    - generic [ref=e144]:
+                      - tab "Calendar" [selected] [ref=e147] [cursor=pointer]
+                      - tab "Requests" [ref=e148] [cursor=pointer]: Requests
+                  - button [ref=e149] [cursor=pointer]:
+                    - generic [ref=e151]: 
+                - generic [ref=e155]:
+                  - generic [ref=e156]:
+                    - generic [ref=e160]:
+                      - generic [ref=e161]:
+                        - button "Previous month" [ref=e162] [cursor=pointer]:
+                          - generic [ref=e164]: 
+                        - button "March 2026" [ref=e167] [cursor=pointer]
+                        - button "Next month" [ref=e168] [cursor=pointer]:
+                          - generic [ref=e170]: 
+                      - table [ref=e172]:
+                        - rowgroup [ref=e173]:
+                          - row "S M T W T F S" [ref=e174]:
+                            - columnheader "S" [ref=e175]
+                            - columnheader "M" [ref=e176]
+                            - columnheader "T" [ref=e177]
+                            - columnheader "W" [ref=e178]
+                            - columnheader "T" [ref=e179]
+                            - columnheader "F" [ref=e180]
+                            - columnheader "S" [ref=e181]
+                        - rowgroup [ref=e182]:
+                          - row "1 2 3 4 5 6 7" [ref=e183]:
+                            - cell "1" [ref=e184]:
+                              - button "1" [ref=e185] [cursor=pointer]:
+                                - generic [ref=e186]: "1"
+                            - cell "2" [ref=e187]:
+                              - button "2" [ref=e188] [cursor=pointer]:
+                                - generic [ref=e189]: "2"
+                            - cell "3" [ref=e190]:
+                              - button "3" [ref=e191] [cursor=pointer]:
+                                - generic [ref=e192]: "3"
+                            - cell "4" [ref=e193]:
+                              - button "4" [ref=e194] [cursor=pointer]:
+                                - generic [ref=e195]: "4"
+                            - cell "5" [ref=e196]:
+                              - button "5" [ref=e197] [cursor=pointer]:
+                                - generic [ref=e198]: "5"
+                            - cell "6" [ref=e199]:
+                              - button "6" [ref=e200] [cursor=pointer]:
+                                - generic [ref=e201]: "6"
+                            - cell "7" [ref=e202]:
+                              - button "7" [ref=e203] [cursor=pointer]:
+                                - generic [ref=e204]: "7"
+                          - row "8 9 10 11 12 13 14" [ref=e205]:
+                            - cell "8" [ref=e206]:
+                              - button "8" [ref=e207] [cursor=pointer]:
+                                - generic [ref=e208]: "8"
+                            - cell "9" [ref=e209]:
+                              - button "9" [ref=e210] [cursor=pointer]:
+                                - generic [ref=e211]: "9"
+                            - cell "10" [ref=e212]:
+                              - button "10" [ref=e213] [cursor=pointer]:
+                                - generic [ref=e214]: "10"
+                            - cell "11" [ref=e215]:
+                              - button "11" [ref=e216] [cursor=pointer]:
+                                - generic [ref=e217]: "11"
+                            - cell "12" [ref=e218]:
+                              - button "12" [ref=e219] [cursor=pointer]:
+                                - generic [ref=e220]: "12"
+                            - cell "13" [ref=e221]:
+                              - button "13" [ref=e222] [cursor=pointer]:
+                                - generic [ref=e223]: "13"
+                            - cell "14" [ref=e224]:
+                              - button "14" [ref=e225] [cursor=pointer]:
+                                - generic [ref=e226]: "14"
+                          - row "15 16 17 18 19 20 21" [ref=e227]:
+                            - cell "15" [ref=e228]:
+                              - button "15" [ref=e229] [cursor=pointer]:
+                                - generic [ref=e230]: "15"
+                            - cell "16" [ref=e231]:
+                              - button "16" [ref=e232] [cursor=pointer]:
+                                - generic [ref=e233]: "16"
+                            - cell "17" [ref=e234]:
+                              - button "17" [ref=e235] [cursor=pointer]:
+                                - generic [ref=e236]: "17"
+                            - cell "18" [ref=e237]:
+                              - button "18" [ref=e238] [cursor=pointer]:
+                                - generic [ref=e239]: "18"
+                            - cell "19" [ref=e240]:
+                              - button "19" [ref=e241] [cursor=pointer]:
+                                - generic [ref=e242]: "19"
+                            - cell "20" [ref=e243]:
+                              - button "20" [ref=e244] [cursor=pointer]:
+                                - generic [ref=e245]: "20"
+                            - cell "21" [ref=e246]:
+                              - button "21" [ref=e247] [cursor=pointer]:
+                                - generic [ref=e248]: "21"
+                          - row "22 23 24 25 26 27 28" [ref=e249]:
+                            - cell "22" [ref=e250]:
+                              - button "22" [ref=e251] [cursor=pointer]:
+                                - generic [ref=e252]: "22"
+                            - cell "23" [ref=e253]:
+                              - button "23" [ref=e254] [cursor=pointer]:
+                                - generic [ref=e255]: "23"
+                            - cell "24" [ref=e256]:
+                              - button "24" [ref=e257] [cursor=pointer]:
+                                - generic [ref=e258]: "24"
+                            - cell "25" [ref=e259]:
+                              - button "25" [ref=e260] [cursor=pointer]:
+                                - generic [ref=e261]: "25"
+                            - cell "26" [ref=e262]:
+                              - button "26" [ref=e263] [cursor=pointer]:
+                                - generic [ref=e264]: "26"
+                            - cell "27" [ref=e265]:
+                              - button "27" [ref=e266] [cursor=pointer]:
+                                - generic [ref=e267]: "27"
+                            - cell "28" [ref=e268]:
+                              - button "28" [ref=e269] [cursor=pointer]:
+                                - generic [ref=e270]: "28"
+                          - row "29 30 31 1 2 3 4" [ref=e271]:
+                            - cell "29" [ref=e272]:
+                              - button "29" [ref=e273] [cursor=pointer]:
+                                - generic [ref=e274]: "29"
+                            - cell "30" [ref=e275]:
+                              - button "30" [ref=e276] [cursor=pointer]:
+                                - generic [ref=e277]: "30"
+                            - cell "31" [ref=e278]:
+                              - button "31" [ref=e279] [cursor=pointer]:
+                                - generic [ref=e280]: "31"
+                            - cell "1" [ref=e281]:
+                              - button "1" [ref=e282] [cursor=pointer]:
+                                - generic [ref=e283]: "1"
+                            - cell "2" [ref=e284]:
+                              - button "2" [ref=e285] [cursor=pointer]:
+                                - generic [ref=e286]: "2"
+                            - cell "3" [ref=e287]:
+                              - button "3" [ref=e288] [cursor=pointer]:
+                                - generic [ref=e289]: "3"
+                            - cell "4" [ref=e290]:
+                              - button "4" [ref=e291] [cursor=pointer]:
+                                - generic [ref=e292]: "4"
+                    - generic [ref=e294]:
+                      - button "Day" [ref=e295] [cursor=pointer]:
+                        - generic [ref=e296]: Day
+                      - button "Week" [ref=e297] [cursor=pointer]:
+                        - generic [ref=e298]: Week
+                      - button "List" [ref=e299] [cursor=pointer]:
+                        - generic [ref=e300]: List
+                    - link "Today - 03/30/2026" [ref=e303] [cursor=pointer]:
+                      - /url: "#"
+                  - generic [ref=e304]:
+                    - separator [ref=e305]
+                    - text: Filters
+                    - link "" [ref=e307] [cursor=pointer]:
+                      - /url: "#/myprofile/calendarFilterConfiguration"
+                      - generic [ref=e309]: 
+                  - button "Saved Filter" [ref=e313] [cursor=pointer]:
+                    - generic [ref=e314]:
+                      - generic: Saved Filter
+                      - generic [ref=e315]:
+                        - textbox "Saved Filter"
+                      - generic [ref=e318]: 
+                  - button "Column View Physician" [ref=e322] [cursor=pointer]:
+                    - generic [ref=e323]:
+                      - generic [ref=e324]: Column View
+                      - generic [ref=e325]:
+                        - generic [ref=e326]: Physician
+                        - textbox "Column View"
+                      - generic [ref=e329]: 
+                  - button "Physician WoundPhysicianL, WoundPhysicianF clear icon" [ref=e335] [cursor=pointer]:
+                    - generic [ref=e336]:
+                      - generic [ref=e337]: Physician
+                      - generic [ref=e338]:
+                        - generic [ref=e341]: WoundPhysicianL, WoundPhysicianF
+                        - textbox "Physician" [ref=e342]
+                      - button "clear icon" [ref=e345]: 
+                      - button [ref=e348]: 
+                  - text:    
+                  - combobox [ref=e354]:
+                    - generic [ref=e355]:
+                      - generic: Visit Type
+                      - textbox "Visit Type" [ref=e357]
+                      - generic [ref=e360]: 
+                    - text:         
+                  - generic [ref=e366] [cursor=pointer]:
+                    - generic [ref=e367]:
+                      - generic [ref=e368]: 
+                      - checkbox "Show Missed Visits Show non-office hours" [ref=e369]
+                    - generic [ref=e370]: Show Missed Visits
+                  - generic [ref=e374] [cursor=pointer]:
+                    - generic [ref=e375]:
+                      - generic [ref=e376]: 
+                      - checkbox [ref=e377]
+                    - generic [ref=e378]: Show non-office hours
+                  - generic [ref=e382] [cursor=pointer]:
+                    - generic [ref=e383]:
+                      - generic [ref=e384]: 
+                      - checkbox "Show Unscheduled Physicians" [checked] [ref=e385]
+                    - generic [ref=e386]: Show Unscheduled Physicians
+                  - generic [ref=e387]:
+                    - separator [ref=e388]
+                    - generic [ref=e389]:
+                      - text: Notes
+                      - generic [ref=e390]: Manage
+                  - generic [ref=e391]:
+                    - separator [ref=e392]
+                    - table [ref=e395]:
+                      - row "Visits (Non-Missed) 0" [ref=e396]:
+                        - cell "Visits (Non-Missed)" [ref=e397]
+                        - cell "0" [ref=e398]
+                    - separator [ref=e399]
+                    - text: Actions
+                  - button "Clear Physician Visits" [ref=e401] [cursor=pointer]:
+                    - generic [ref=e402]: Clear Physician Visits
+                  - button "Clear Filters" [ref=e404] [cursor=pointer]:
+                    - generic [ref=e405]: Clear Filters
+              - text: 
+            - generic [ref=e406]:
+              - generic [ref=e407]:
+                - generic [ref=e408]:
+                  - strong [ref=e409]: Mon 3/30
+                  - strong [ref=e410]: "physician:"
+                  - generic [ref=e413] [cursor=pointer]: 1 selected
+                  - strong [ref=e414]: "Visit Type:"
+                  - generic [ref=e417] [cursor=pointer]: All
+                - generic [ref=e418]:
+                  - combobox [ref=e422]:
+                    - generic [ref=e425]: 
+                    - group
+                    - textbox "Patient's Next Appointment" [ref=e427]
+                  - button "Group by None" [ref=e430] [cursor=pointer]:
+                    - group
+                    - generic [ref=e431]:
+                      - generic [ref=e432]: Group by
+                      - generic [ref=e433]:
+                        - generic [ref=e434]: None
+                        - textbox "Group by"
+                      - generic [ref=e437]: 
+                  - generic [ref=e438]: "|"
+                  - generic [ref=e440]: 
+                  - generic [ref=e441]: "|"
+                  - generic [ref=e443]: 
+              - table [ref=e446]:
+                - rowgroup [ref=e454]:
+                  - 'row "Time: Not sorted. Activate to sort ascending. Patient: Sorted ascending. Activate to sort descending. Primary Care Physician: Not sorted. Activate to sort ascending. Physician: Not sorted. Activate to sort ascending. Visit Type: Not sorted. Activate to sort ascending." [ref=e455]':
+                    - 'columnheader "Time: Not sorted. Activate to sort ascending." [ref=e456] [cursor=pointer]':
+                      - text: Time
+                      - generic [ref=e457]: 
+                    - 'columnheader "Patient: Sorted ascending. Activate to sort descending." [ref=e458] [cursor=pointer]':
+                      - text: Patient
+                      - generic [ref=e459]: 
+                    - 'columnheader "Primary Care Physician: Not sorted. Activate to sort ascending." [ref=e460] [cursor=pointer]':
+                      - text: Primary Care Physician
+                      - generic [ref=e461]: 
+                    - 'columnheader "Physician: Not sorted. Activate to sort ascending." [ref=e462] [cursor=pointer]':
+                      - text: Physician
+                      - generic [ref=e463]: 
+                    - 'columnheader "Visit Type: Not sorted. Activate to sort ascending." [ref=e464] [cursor=pointer]':
+                      - text: Visit Type
+                      - generic [ref=e465]: 
+                    - columnheader [ref=e466]
+                - rowgroup [ref=e467]:
+                  - row "No data available" [ref=e468]:
+                    - cell "No data available" [ref=e469]
+  - text:                                                                                                   
+```

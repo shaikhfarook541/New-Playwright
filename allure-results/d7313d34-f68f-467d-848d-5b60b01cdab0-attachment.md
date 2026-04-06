@@ -1,0 +1,1384 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e2]:
+    - generic:
+      - text:             
+      - generic:
+        - navigation [ref=e3]:
+          - generic [ref=e4]: 
+          - text: Configured for PI and Quality | technical support | log out
+        - navigation [ref=e5]:
+          - navigation [ref=e6] [cursor=pointer]:
+            - listitem [ref=e7]
+          - list [ref=e9]:
+            - listitem [ref=e10]
+            - listitem [ref=e11]:
+              - button "Add Facility" [ref=e12]
+            - listitem [ref=e13]:
+              - link "89 Degrees Test" [ref=e14] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=e15]:
+              - link "Prabal Biswas" [ref=e16] [cursor=pointer]:
+                - /url: "#"
+                - img [ref=e17]
+                - text: Prabal Biswas
+    - generic [ref=e18]:
+      - list [ref=e20]:
+        - listitem [ref=e21] [cursor=pointer]:
+          - generic "Search" [ref=e22]: 
+        - listitem [ref=e23] [cursor=pointer]:
+          - generic "Calendar" [ref=e24]: 
+        - listitem [ref=e25] [cursor=pointer]: 
+        - listitem [ref=e26] [cursor=pointer]:
+          - generic "User Inbox" [ref=e27]: 
+          - generic [ref=e28]: "71"
+        - listitem [ref=e29] [cursor=pointer]:
+          - generic "My Reports" [ref=e30]: 
+        - listitem [ref=e31] [cursor=pointer]:
+          - generic "Worklist" [ref=e32]: 
+        - listitem [ref=e33] [cursor=pointer]:
+          - generic "Billing" [ref=e34]: 
+        - listitem [ref=e35] [cursor=pointer]:
+          - generic "Patient Messaging" [ref=e36]: 
+        - listitem [ref=e37] [cursor=pointer]
+        - listitem [ref=e38] [cursor=pointer]:
+          - generic "Facility Admin" [ref=e39]: 
+        - listitem [ref=e40] [cursor=pointer]:
+          - generic "NHS Admin" [ref=e41]: 
+        - listitem [ref=e42] [cursor=pointer]:
+          - img "Resource Center" [ref=e44]
+      - generic [ref=e46]:
+        - generic [ref=e47]:
+          - generic [ref=e48]:
+            - generic [ref=e49]: SEARCH
+            - button "+ Add New" [ref=e51] [cursor=pointer]
+          - generic [ref=e54]:
+            - textbox [ref=e55]
+            - generic [ref=e56]: 
+            - generic [ref=e57] [cursor=pointer]: 
+          - generic [ref=e58]:
+            - generic [ref=e59]:
+              - text: Search For
+              - combobox [ref=e60]:
+                - option "Patient" [selected]
+                - option "Physician"
+                - option "Clinician"
+                - option "Insurance"
+            - generic [ref=e61]:
+              - text: Search By
+              - combobox [ref=e62]:
+                - option "First Name"
+                - option "Last Name" [selected]
+                - option "Medical Record No."
+                - option "DOB (mmddyyyy)"
+                - option "Account Number"
+                - option "Phone Number"
+          - generic [ref=e63]:
+            - link "Show Inactive Patients" [ref=e65] [cursor=pointer]:
+              - /url: "#"
+            - button "Search" [ref=e67] [cursor=pointer]
+        - generic [ref=e69]:
+          - generic:
+            - generic:
+              - list
+      - generic [ref=e70]:
+        - generic:
+          - generic:
+            - main
+        - generic [ref=e72]:
+          - list [ref=e74]:
+            - listitem [ref=e75]:
+              - generic [ref=e76]: Schedule Encounter
+            - listitem [ref=e77]:
+              - generic [ref=e78]: "| Schedule Reserved Time"
+            - listitem [ref=e79]:
+              - generic [ref=e80]: "| System Messages"
+            - listitem [ref=e81]:
+              - generic [ref=e82]: "| Batch Utilities"
+              - list [ref=e83]:
+                - listitem [ref=e84]:
+                  - generic [ref=e85]: Batch Print
+                - listitem [ref=e86]:
+                  - generic [ref=e87]: Batch Upload
+                - listitem [ref=e88]:
+                  - generic [ref=e89]: Batch Letters
+                - listitem [ref=e90]:
+                  - generic [ref=e91]: Batch Finalize
+                - listitem [ref=e92]:
+                  - generic [ref=e93]: Batch Discharge
+            - listitem [ref=e94]:
+              - generic [ref=e95]: "| Add"
+              - list [ref=e96]:
+                - listitem [ref=e97]:
+                  - generic [ref=e98]: Add Patient
+                - listitem [ref=e99]:
+                  - generic [ref=e100]: Add Physician
+                - listitem [ref=e101]:
+                  - generic [ref=e102]: Add Insurance
+                - listitem [ref=e103]:
+                  - generic [ref=e104]: Add Clinician
+                - listitem [ref=e105]:
+                  - generic [ref=e106]: Add Care Center
+                - listitem [ref=e107]:
+                  - generic [ref=e108]: Add Task
+                - listitem [ref=e109]:
+                  - generic [ref=e110]: Add Physical Therapist
+            - listitem [ref=e111]:
+              - generic [ref=e112]: "| Scheduler Admin"
+              - list [ref=e113]:
+                - listitem [ref=e114]:
+                  - generic [ref=e115]: Visit Type and Time Admin
+                - listitem [ref=e116]:
+                  - generic [ref=e117]: Color Coding Admin
+                - listitem [ref=e118]:
+                  - generic [ref=e119]: Visit Info Admin
+                - listitem [ref=e120]:
+                  - generic [ref=e121]: Office Hours Admin
+                - listitem [ref=e122]:
+                  - generic [ref=e123]: Cancellation Reason Admin
+                - listitem [ref=e124]:
+                  - generic [ref=e125]: Calendar Filter Admin
+                - listitem [ref=e126]:
+                  - generic [ref=e127]: Clinician Schedule Admin
+                - listitem [ref=e128]:
+                  - generic [ref=e129]: Physician Schedule Admin
+                - listitem [ref=e130]:
+                  - generic [ref=e131]: General Admin
+            - listitem [ref=e132]:
+              - generic [ref=e133]: "| Faxing"
+              - list [ref=e134]:
+                - listitem [ref=e135]:
+                  - generic [ref=e136]: Inbound Faxing
+                - listitem [ref=e137]:
+                  - generic [ref=e138]: Outbound Faxing
+          - generic [ref=e142]:
+            - heading "Add Patient" [level=1] [ref=e145]
+            - tablist [ref=e146]:
+              - listitem [ref=e147]:
+                - tab "Identification Information" [expanded] [ref=e148] [cursor=pointer]: Identification Information
+                - tabpanel "Identification Information" [ref=e150]:
+                  - generic [ref=e151]:
+                    - generic [ref=e152]:
+                      - generic [ref=e153]:
+                        - generic [ref=e154]: Patient Number
+                        - textbox [ref=e161]
+                      - generic [ref=e162]:
+                        - generic [ref=e163]: First Name
+                        - textbox [ref=e170]: Sarai
+                      - generic [ref=e171]:
+                        - generic [ref=e172]: Preferred Name
+                        - textbox [ref=e179]
+                      - generic [ref=e180]:
+                        - generic [ref=e181]: Middle Name
+                        - textbox [ref=e188]
+                      - generic [ref=e189]:
+                        - generic [ref=e190]: Last Name
+                        - textbox [ref=e197]: Lesch-Harber
+                      - generic [ref=e198]:
+                        - generic [ref=e199]: Suffix
+                        - textbox [ref=e206]
+                      - generic [ref=e207]:
+                        - generic [ref=e208]: Social Security Number
+                        - textbox [ref=e215]
+                      - generic [ref=e216]:
+                        - generic [ref=e217]: Date of Birth
+                        - generic [ref=e222]:
+                          - textbox [ref=e224]
+                          - generic [ref=e225] [cursor=pointer]: 
+                      - generic [ref=e226]:
+                        - generic [ref=e227]: Gender Identification
+                        - generic [ref=e230]: + Add
+                      - generic [ref=e231]:
+                        - generic [ref=e232]: Sex
+                        - combobox [ref=e238]:
+                          - option [selected]
+                          - option "Male"
+                          - option "Female"
+                          - option "Unknown"
+                      - generic [ref=e239]:
+                        - generic [ref=e240]: Sexual Orientation
+                        - combobox [ref=e246]:
+                          - option [selected]
+                          - option "Straight or heterosexual"
+                          - option "Lesbian, gay, or homosexual"
+                          - option "Bisexual"
+                          - option "Something else, please describe"
+                          - option "Don't know"
+                          - option "Choose not to disclose"
+                      - generic [ref=e247]:
+                        - generic [ref=e248]: Pronoun
+                        - combobox [ref=e254]:
+                          - option [selected]
+                          - option "He/Him"
+                          - option "She/Her"
+                          - option "They/Them"
+                          - option "Other"
+                      - generic [ref=e256]:
+                        - generic [ref=e258]: Primary Race
+                        - generic [ref=e263]: + Add
+                      - generic [ref=e264]:
+                        - generic [ref=e266]: Primary Ethnicity
+                        - generic [ref=e271]: + Add
+                      - generic [ref=e272]:
+                        - generic [ref=e273]: Religion
+                        - combobox [ref=e279]:
+                          - option [selected]
+                          - option "Adventist"
+                          - option "Aglipay"
+                          - option "Agnostic"
+                          - option "Ahmadi"
+                          - option "AME Zion"
+                          - option "American Samoa"
+                          - option "Anglican"
+                          - option "Anglican/ Episcopal"
+                          - option "Apostolic Church"
+                          - option "Arya Samaj"
+                          - option "Assembly of God"
+                          - option "Bahai"
+                          - option "Baptist"
+                          - option "Brethren"
+                          - option "Buddhist"
+                          - option "Catholic"
+                          - option "Chamorro"
+                          - option "Church of England"
+                          - option "Church of God"
+                          - option "Church of Nazareth"
+                          - option "Congregational"
+                          - option "Eastern Orthodox"
+                          - option "Episcopal"
+                          - option "Evangelical"
+                          - option "Greek Orthodox"
+                          - option "Harriste"
+                          - option "Hindu"
+                          - option "Hutterite"
+                          - option "Islam"
+                          - option "Jain"
+                          - option "Jehovah Witness"
+                          - option "Jewish"
+                          - option "Kanito"
+                          - option "Khadir"
+                          - option "Latter Day Saints"
+                          - option "Layene"
+                          - option "Lutheran"
+                          - option "Mennonite"
+                          - option "Methodist"
+                          - option "Moravian"
+                          - option "Morman"
+                          - option "Morvan"
+                          - option "Moslem"
+                          - option "Mouride"
+                          - option "Muslim"
+                          - option "Nazarene"
+                          - option "New Apostolic"
+                          - option "Oriental Christian"
+                          - option "Orthodox"
+                          - option "Pagan"
+                          - option "Palauan"
+                          - option "Papua Ekalesi"
+                          - option "Parsi"
+                          - option "Pentecostal"
+                          - option "Ponapean-Ping"
+                          - option "Presbyterian"
+                          - option "Protestant"
+                          - option "Quakers"
+                          - option "Ratana"
+                          - option "Reformed Church"
+                          - option "Roman Catholic"
+                          - option "Samoan"
+                          - option "Sanathan"
+                          - option "Shiite Islam"
+                          - option "Sikh"
+                          - option "Spiritualist"
+                          - option "Sunni Islam"
+                          - option "Taoist"
+                          - option "Tidjane"
+                          - option "Trukese"
+                          - option "Unitarian"
+                          - option "United Church"
+                          - option "Wesleyenne"
+                          - option "Zion"
+                          - option "Zoroastrian"
+                      - generic [ref=e280]:
+                        - generic [ref=e281]: Tribal Affiliation
+                        - combobox [ref=e287]:
+                          - option [selected]
+                          - option "Absentee-Shawnee Tribe of Indians of Oklahoma"
+                          - option "Agua Caliente Band of Cahuilla Indians of the Agua Caliente Indian Reservation, California"
+                          - option "Ak-Chin Indian Community"
+                          - option "Alabama-Coushatta Tribe of Texas"
+                          - option "Alabama-Quassarte Tribal Town"
+                          - option "Alturas Indian Rancheria, California"
+                          - option "Apache Tribe of Oklahoma"
+                          - option "Northern Arapaho Tribe of the Wind River Reservation, Wyoming"
+                          - option "Mi'kmaq Nation"
+                          - option "Assiniboine and Sioux Tribes of the Fort Peck Indian Reservation, Montana"
+                          - option "Augustine Band of Cahuilla Indians, California"
+                          - option "Bad River Band of the Lake Superior Tribe of Chippewa Indians of the Bad River Reservation, Wisconsin"
+                          - option "Bay Mills Indian Community, Michigan"
+                          - option "Bear River Band of the Rohnerville Rancheria, California"
+                          - option "Berry Creek Rancheria of Maidu Indians of California"
+                          - option "Big Lagoon Rancheria, California"
+                          - option "Big Pine Paiute Tribe of the Owens Valley"
+                          - option "Big Sandy Rancheria of Western Mono Indians of California"
+                          - option "Big Valley Band of Pomo Indians of the Big Valley Rancheria, California"
+                          - option "Blackfeet Tribe of the Blackfeet Indian Reservation of Montana"
+                          - option "Blue Lake Rancheria, California"
+                          - option "Bridgeport Indian Colony"
+                          - option "Buena Vista Rancheria of Me-Wuk Indians of California"
+                          - option "Burns Paiute Tribe"
+                          - option "Cabazon Band of Cahuilla Indians"
+                          - option "Cachil DeHe Band of Wintun Indians of the Colusa Indian Community of the Colusa Rancheria, California"
+                          - option "Caddo Nation of Oklahoma"
+                          - option "Cahuilla Band of Indians"
+                          - option "Cahto Tribe of the Laytonville Rancheria"
+                          - option "California Valley Miwok Tribe, California"
+                          - option "Campo Band of Diegueno Mission Indians of the Campo Indian Reservation, California"
+                          - option "Capitan Grande Band of Diegueno Mission Indians of California"
+                          - option "Catawba Indian Nation"
+                          - option "Cayuga Nation"
+                          - option "Cedarville Rancheria, California"
+                          - option "Chemehuevi Indian Tribe of the Chemehuevi Reservation, California"
+                          - option "Cher-Ae Heights Indian Community of the Trinidad Rancheria, California"
+                          - option "Cherokee Nation"
+                          - option "Cheyenne and Arapaho Tribes, Oklahoma"
+                          - option "Cheyenne River Sioux Tribe of the Cheyenne River Reservation, South Dakota"
+                          - option "The Chickasaw Nation"
+                          - option "Chicken Ranch Rancheria of Me-Wuk Indians of California"
+                          - option "Chippewa Cree Indians of the Rocky Boy's Reservation, Montana"
+                          - option "Chitimacha Tribe of Louisiana"
+                          - option "The Choctaw Nation of Oklahoma"
+                          - option "Citizen Potawatomi Nation, Oklahoma"
+                          - option "Cloverdale Rancheria of Pomo Indians of California"
+                          - option "Cocopah Tribe of Arizona"
+                          - option "Coeur D'Alene Tribe"
+                          - option "Cold Springs Rancheria of Mono Indians of California"
+                          - option "Colorado River Indian Tribes of the Colorado River Indian Reservation, Arizona and California"
+                          - option "Comanche Nation, Oklahoma"
+                          - option "Confederated Salish and Kootenai Tribes of the Flathead Reservation"
+                          - option "Confederated Tribes of the Chehalis Reservation"
+                          - option "Confederated Tribes of the Colville Reservation"
+                          - option "Confederated Tribes of the Coos, Lower Umpqua and Siuslaw Indians"
+                          - option "Confederated Tribes of the Goshute Reservation, Nevada and Utah"
+                          - option "Confederated Tribes of the Grand Ronde Community of Oregon"
+                          - option "Confederated Tribes of Siletz Indians of Oregon"
+                          - option "Confederated Tribes of the Umatilla Indian Reservation"
+                          - option "Confederated Tribes of the Warm Springs Reservation of Oregon"
+                          - option "Confederated Tribes and Bands of the Yakama Nation"
+                          - option "Coquille Indian Tribe"
+                          - option "Kletsel Dehe Wintun Nation of the Cortina Rancheria"
+                          - option "Coushatta Tribe of Louisiana"
+                          - option "Cow Creek Band of Umpqua Tribe of Indians"
+                          - option "Coyote Valley Band of Pomo Indians of California"
+                          - option "Crow Tribe of Montana"
+                          - option "Crow Creek Sioux Tribe of the Crow Creek Reservation, South Dakota"
+                          - option "Ewiiaapaayp Band of Kumeyaay Indians, California"
+                          - option "Timbisha Shoshone Tribe"
+                          - option "Delaware Nation, Oklahoma"
+                          - option "Delaware Tribe of Indians"
+                          - option "Dry Creek Rancheria Band of Pomo Indians, California"
+                          - option "Duckwater Shoshone Tribe of the Duckwater Reservation, Nevada"
+                          - option "Eastern Band of Cherokee Indians"
+                          - option "Eastern Shawnee Tribe of Oklahoma"
+                          - option "Elem Indian Colony of Pomo Indians of the Sulphur Bank Rancheria, California"
+                          - option "Elk Valley Rancheria, California"
+                          - option "Ely Shoshone Tribe of Nevada"
+                          - option "Enterprise Rancheria of Maidu Indians of California"
+                          - option "Flandreau Santee Sioux Tribe of South Dakota"
+                          - option "Forest County Potawatomi Community, Wisconsin"
+                          - option "Fort Belknap Indian Community of the Fort Belknap Reservation of Montana"
+                          - option "Fort Bidwell Indian Community of the Fort Bidwell Reservation of California"
+                          - option "Fort Independence Indian Community of Paiute Indians of the Fort Independence Reservation, California"
+                          - option "Fort McDermitt Paiute and Shoshone Tribes of the Fort McDermitt Indian Reservation, Nevada and Oregon"
+                          - option "Fort McDowell Yavapai Nation, Arizona"
+                          - option "Fort Mojave Indian Tribe of Arizona, California & Nevada"
+                          - option "Fort Sill Apache Tribe of Oklahoma"
+                          - option "Gila River Indian Community of the Gila River Indian Reservation, Arizona"
+                          - option "Grand Traverse Band of Ottawa and Chippewa Indians, Michigan"
+                          - option "Federated Indians of Graton Rancheria, California"
+                          - option "Greenville Rancheria"
+                          - option "Grindstone Indian Rancheria of Wintun-Wailaki Indians of California"
+                          - option "Guidiville Rancheria of California"
+                          - option "Hannahville Indian Community, Michigan"
+                          - option "Havasupai Tribe of the Havasupai Reservation, Arizona"
+                          - option "Ho-Chunk Nation of Wisconsin"
+                          - option "Hoh Indian Tribe"
+                          - option "Hoopa Valley Tribe, California"
+                          - option "Hopi Tribe of Arizona"
+                          - option "Hopland Band of Pomo Indians, California"
+                          - option "Houlton Band of Maliseet Indians"
+                          - option "Hualapai Indian Tribe of the Hualapai Indian Reservation, Arizona"
+                          - option "Nottawaseppi Huron Band of the Potawatomi, Michigan"
+                          - option "Inaja Band of Diegueno Mission Indians of the Inaja and Cosmit Reservation, California"
+                          - option "Ione Band of Miwok Indians of California"
+                          - option "Iowa Tribe of Kansas and Nebraska"
+                          - option "Iowa Tribe of Oklahoma"
+                          - option "Jackson Band of Miwuk Indians"
+                          - option "Jamestown S'Klallam Tribe"
+                          - option "Jamul Indian Village of California"
+                          - option "Jena Band of Choctaw Indians"
+                          - option "Jicarilla Apache Nation, New Mexico"
+                          - option "Kaibab Band of Paiute Indians of the Kaibab Indian Reservation, Arizona"
+                          - option "Kalispel Indian Community of the Kalispel Reservation"
+                          - option "Karuk Tribe"
+                          - option "Kashia Band of Pomo Indians of the Stewarts Point Rancheria, California"
+                          - option "Kaw Nation, Oklahoma"
+                          - option "Keweenaw Bay Indian Community, Michigan"
+                          - option "Kialegee Tribal Town"
+                          - option "Kickapoo Tribe of Indians of the Kickapoo Reservation in Kansas"
+                          - option "Kickapoo Tribe of Oklahoma"
+                          - option "Kickapoo Traditional Tribe of Texas"
+                          - option "Kiowa Indian Tribe of Oklahoma"
+                          - option "Klamath Tribes"
+                          - option "Kootenai Tribe of Idaho"
+                          - option "La Jolla Band of Luiseno Indians, California"
+                          - option "La Posta Band of Diegueno Mission Indians of the La Posta Indian Reservation, California"
+                          - option "Lac Courte Oreilles Band of Lake Superior Chippewa Indians of Wisconsin"
+                          - option "Lac du Flambeau Band of Lake Superior Chippewa Indians of the Lac du Flambeau Reservation of Wisconsin"
+                          - option "Lac Vieux Desert Band of Lake Superior Chippewa Indians of Michigan"
+                          - option "Las Vegas Tribe of Paiute Indians of the Las Vegas Indian Colony, Nevada"
+                          - option "Little River Band of Ottawa Indians, Michigan"
+                          - option "Little Traverse Bay Bands of Odawa Indians, Michigan"
+                          - option "Koi Nation of Northern California"
+                          - option "Los Coyotes Band of Cahuilla and Cupeno Indians, California"
+                          - option "Lovelock Paiute Tribe of the Lovelock Indian Colony, Nevada"
+                          - option "Lower Brule Sioux Tribe of the Lower Brule Reservation, South Dakota"
+                          - option "Lower Elwha Tribal Community"
+                          - option "Lower Sioux Indian Community in the State of Minnesota"
+                          - option "Lummi Tribe of the Lummi Reservation"
+                          - option "Lytton Rancheria of California"
+                          - option "Makah Indian Tribe of the Makah Indian Reservation"
+                          - option "Manchester Band of Pomo Indians of the Manchester Rancheria, California"
+                          - option "Manzanita Band of Diegueno Mission Indians of the Manzanita Reservation, California"
+                          - option "Mashantucket Pequot Indian Tribe"
+                          - option "Match-e-be-nash-she-wish Band of Pottawatomi Indians of Michigan"
+                          - option "Mechoopda Indian Tribe of Chico Rancheria, California"
+                          - option "Menominee Indian Tribe of Wisconsin"
+                          - option "Mesa Grande Band of Diegueno Mission Indians of the Mesa Grande Reservation, California"
+                          - option "Mescalero Apache Tribe of the Mescalero Reservation, New Mexico"
+                          - option "Miami Tribe of Oklahoma"
+                          - option "Miccosukee Tribe of Indians"
+                          - option "Middletown Rancheria of Pomo Indians of California"
+                          - 'option "Minnesota Chippewa Tribe, Minnesota (Six component reservations: Bois Forte Band (Nett Lake); Fond du Lac Band; Grand Portage Band; Leech Lake Band; Mille Lacs Band; White Earth Band)"'
+                          - option "Mississippi Band of Choctaw Indians"
+                          - option "Moapa Band of Paiute Indians of the Moapa River Indian Reservation, Nevada"
+                          - option "Modoc Nation"
+                          - option "Mohegan Tribe of Indians of Connecticut"
+                          - option "Mooretown Rancheria of Maidu Indians of California"
+                          - option "Morongo Band of Mission Indians, California"
+                          - option "Muckleshoot Indian Tribe"
+                          - option "The Muscogee (Creek) Nation"
+                          - option "Narragansett Indian Tribe"
+                          - option "Navajo Nation, Arizona, New Mexico, & Utah"
+                          - option "Nez Perce Tribe"
+                          - option "Nisqually Indian Tribe"
+                          - option "Nooksack Indian Tribe"
+                          - option "Northern Cheyenne Tribe of the Northern Cheyenne Indian Reservation, Montana"
+                          - option "Northfork Rancheria of Mono Indians of California"
+                          - option "Northwestern Band of the Shoshone Nation"
+                          - option "Oglala Sioux Tribe"
+                          - option "Omaha Tribe of Nebraska"
+                          - option "Oneida Indian Nation"
+                          - option "Oneida Nation"
+                          - option "Onondaga Nation"
+                          - option "The Osage Nation"
+                          - option "Ottawa Tribe of Oklahoma"
+                          - option "Otoe-Missouria Tribe of Indians, Oklahoma"
+                          - option "Paiute Indian Tribe of Utah (Cedar Band of Paiutes, Kanosh Band of Paiutes, Koosharem Band of Paiutes, Indian Peaks Band of Paiutes, and Shivwits Band of Paiutes)"
+                          - option "Bishop Paiute Tribe"
+                          - option "Paiute-Shoshone Tribe of the Fallon Reservation and Colony, Nevada"
+                          - option "Lone Pine Paiute-Shoshone Tribe"
+                          - option "Pala Band of Mission Indians"
+                          - option "Pascua Yaqui Tribe of Arizona"
+                          - option "Paskenta Band of Nomlaki Indians of California"
+                          - option "Passamaquoddy Tribe"
+                          - option "Pauma Band of Luiseno Mission Indians of the Pauma & Yuima Reservation, California"
+                          - option "Pawnee Nation of Oklahoma"
+                          - option "Pechanga Band of Indians"
+                          - option "Penobscot Nation"
+                          - option "Peoria Tribe of Indians of Oklahoma"
+                          - option "Picayune Rancheria of Chukchansi Indians of California"
+                          - option "Pinoleville Pomo Nation, California"
+                          - option "Pit River Tribe, California (includes XL Ranch, Big Bend, Likely, Lookout, Montgomery Creek, and Roaring Creek Rancherias)"
+                          - option "Poarch Band of Creek Indians"
+                          - option "Pokagon Band of Potawatomi Indians, Michigan and Indiana"
+                          - option "Ponca Tribe of Indians of Oklahoma"
+                          - option "Ponca Tribe of Nebraska"
+                          - option "Port Gamble S'Klallam Tribe"
+                          - option "Potter Valley Tribe, California"
+                          - option "Prairie Band Potawatomi Nation"
+                          - option "Prairie Island Indian Community in the State of Minnesota"
+                          - option "Pueblo of Acoma, New Mexico"
+                          - option "Pueblo of Cochiti, New Mexico"
+                          - option "Pueblo of Jemez, New Mexico"
+                          - option "Pueblo of Isleta, New Mexico"
+                          - option "Pueblo of Laguna, New Mexico"
+                          - option "Pueblo of Nambe, New Mexico"
+                          - option "Pueblo of Picuris, New Mexico"
+                          - option "Pueblo of Pojoaque, New Mexico"
+                          - option "Pueblo of San Felipe, New Mexico"
+                          - option "Ohkay Owingeh, New Mexico"
+                          - option "Pueblo of San Ildefonso, New Mexico"
+                          - option "Pueblo of Sandia, New Mexico"
+                          - option "Pueblo of Santa Ana, New Mexico"
+                          - option "Pueblo of Santa Clara, New Mexico"
+                          - option "Santo Domingo Pueblo"
+                          - option "Pueblo of Taos, New Mexico"
+                          - option "Pueblo of Tesuque, New Mexico"
+                          - option "Pueblo of Zia, New Mexico"
+                          - option "Puyallup Tribe of the Puyallup Reservation"
+                          - option "Pyramid Lake Paiute Tribe of the Pyramid Lake Reservation, Nevada"
+                          - option "Quapaw Nation"
+                          - option "Quartz Valley Indian Community of the Quartz Valley Reservation of California"
+                          - option "Quechan Tribe of the Fort Yuma Indian Reservation, California & Arizona"
+                          - option "Quileute Tribe of the Quileute Reservation"
+                          - option "Quinault Indian Nation"
+                          - option "Ramona Band of Cahuilla, California"
+                          - option "Red Cliff Band of Lake Superior Chippewa Indians of Wisconsin"
+                          - option "Red Lake Band of Chippewa Indians, Minnesota"
+                          - option "Redding Rancheria, California"
+                          - option "Redwood Valley or Little River Band of Pomo Indians of the Redwood Valley Rancheria California"
+                          - option "Reno-Sparks Indian Colony, Nevada"
+                          - option "Resighini Rancheria, California"
+                          - option "Rincon Band of Luiseno Mission Indians of Rincon Reservation, California"
+                          - option "Robinson Rancheria"
+                          - option "Rosebud Sioux Tribe of the Rosebud Indian Reservation, South Dakota"
+                          - option "Round Valley Indian Tribes, Round Valley Reservation, California"
+                          - option "Yocha Dehe Wintun Nation, California"
+                          - option "Sac & Fox Tribe of the Mississippi in Iowa"
+                          - option "Sac & Fox Nation of Missouri in Kansas and Nebraska"
+                          - option "Sac & Fox Nation, Oklahoma"
+                          - option "Saginaw Chippewa Indian Tribe of Michigan"
+                          - option "Salt River Pima-Maricopa Indian Community of the Salt River Reservation, Arizona"
+                          - option "Samish Indian Nation"
+                          - option "San Carlos Apache Tribe of the San Carlos Reservation, Arizona"
+                          - option "San Juan Southern Paiute Tribe of Arizona"
+                          - option "Yuhaaviatam of San Manuel Nation"
+                          - option "San Pasqual Band of Diegueno Mission Indians of California"
+                          - option "Santa Rosa Indian Community of the Santa Rosa Rancheria, California"
+                          - option "Santa Rosa Band of Cahuilla Indians, California"
+                          - option "Santa Ynez Band of Chumash Mission Indians of the Santa Ynez Reservation, California"
+                          - option "Iipay Nation of Santa Ysabel, California"
+                          - option "Santee Sioux Nation, Nebraska"
+                          - option "Sauk-Suiattle Indian Tribe"
+                          - option "Sault Ste. Marie Tribe of Chippewa Indians, Michigan"
+                          - option "Scotts Valley Band of Pomo Indians of California"
+                          - option "The Seminole Nation of Oklahoma"
+                          - option "Seminole Tribe of Florida"
+                          - option "Seneca Nation of Indians"
+                          - option "Seneca-Cayuga Nation"
+                          - option "Shakopee Mdewakanton Sioux Community of Minnesota"
+                          - option "Shawnee Tribe"
+                          - option "Sherwood Valley Rancheria of Pomo Indians of California"
+                          - option "Shingle Springs Band of Miwok Indians, Shingle Springs Rancheria (Verona Tract), California"
+                          - option "Shoalwater Bay Indian Tribe of the Shoalwater Bay Indian Reservation"
+                          - option "Eastern Shoshone Tribe of the Wind River Reservation, Wyoming"
+                          - option "Shoshone-Bannock Tribes of the Fort Hall Reservation"
+                          - option "Shoshone-Paiute Tribes of the Duck Valley Reservation, Nevada"
+                          - option "Sisseton-Wahpeton Oyate of the Lake Traverse Reservation, South Dakota"
+                          - option "Skokomish Indian Tribe"
+                          - option "Skull Valley Band of Goshute Indians of Utah"
+                          - option "Tolowa Dee-ni' Nation"
+                          - option "Snoqualmie Indian Tribe"
+                          - option "Soboba Band of Luiseno Indians, California"
+                          - option "Sokaogon Chippewa Community, Wisconsin"
+                          - option "Southern Ute Indian Tribe of the Southern Ute Reservation, Colorado"
+                          - option "Spirit Lake Tribe, North Dakota"
+                          - option "Spokane Tribe of the Spokane Reservation"
+                          - option "Squaxin Island Tribe of the Squaxin Island Reservation"
+                          - option "St. Croix Chippewa Indians of Wisconsin"
+                          - option "Saint Regis Mohawk Tribe"
+                          - option "Standing Rock Sioux Tribe of North & South Dakota"
+                          - option "Stockbridge Munsee Community, Wisconsin"
+                          - option "Stillaguamish Tribe of Indians of Washington"
+                          - option "Summit Lake Paiute Tribe of Nevada"
+                          - option "Suquamish Indian Tribe of the Port Madison Reservation"
+                          - option "Susanville Indian Rancheria, California"
+                          - option "Swinomish Indian Tribal Community"
+                          - option "Sycuan Band of the Kumeyaay Nation"
+                          - option "Wiyot Tribe, California"
+                          - option "Table Mountain Rancheria"
+                          - 'option "Te-Moak Tribe of Western Shoshone Indians of Nevada (Four constituent bands: Battle Mountain Band; Elko Band; South Fork Band; and Wells Band)"'
+                          - option "Thlopthlocco Tribal Town"
+                          - option "Three Affiliated Tribes of the Fort Berthold Reservation, North Dakota"
+                          - option "Tohono O'odham Nation of Arizona"
+                          - option "Tonawanda Band of Seneca"
+                          - option "Tonkawa Tribe of Indians of Oklahoma"
+                          - option "Tonto Apache Tribe of Arizona"
+                          - option "Torres Martinez Desert Cahuilla Indians, California"
+                          - option "Tule River Indian Tribe of the Tule River Reservation, California"
+                          - option "Tulalip Tribes of Washington"
+                          - option "Tunica-Biloxi Indian Tribe"
+                          - option "Tuolumne Band of Me-Wuk Indians of the Tuolumne Rancheria of California"
+                          - option "Turtle Mountain Band of Chippewa Indians of North Dakota"
+                          - option "Tuscarora Nation"
+                          - option "Twenty-Nine Palms Band of Mission Indians of California"
+                          - option "United Auburn Indian Community of the Auburn Rancheria of California"
+                          - option "United Keetoowah Band of Cherokee Indians in Oklahoma"
+                          - option "Habematolel Pomo of Upper Lake, California"
+                          - option "Upper Sioux Community, Minnesota"
+                          - option "Upper Skagit Indian Tribe"
+                          - option "Ute Indian Tribe of the Uintah & Ouray Reservation, Utah"
+                          - option "Ute Mountain Ute Tribe"
+                          - option "Utu Utu Gwaitu Paiute Tribe of the Benton Paiute Reservation, California"
+                          - option "Walker River Paiute Tribe of the Walker River Reservation, Nevada"
+                          - option "Wampanoag Tribe of Gay Head (Aquinnah)"
+                          - option "Washoe Tribe of Nevada & California (Carson Colony, Dresslerville Colony, Woodfords Community, Stewart Community, & Washoe Ranches)"
+                          - option "White Mountain Apache Tribe of the Fort Apache Reservation, Arizona"
+                          - option "Wichita and Affiliated Tribes (Wichita, Keechi, Waco, & Tawakonie), Oklahoma"
+                          - option "Winnebago Tribe of Nebraska"
+                          - option "Winnemucca Indian Colony of Nevada"
+                          - option "Wyandotte Nation"
+                          - option "Yankton Sioux Tribe of South Dakota"
+                          - option "Yavapai-Apache Nation of the Camp Verde Indian Reservation, Arizona"
+                          - option "Yavapai-Prescott Indian Tribe"
+                          - option "Yerington Paiute Tribe of the Yerington Colony & Campbell Ranch, Nevada"
+                          - option "Yomba Shoshone Tribe of the Yomba Reservation, Nevada"
+                          - option "Ysleta del Sur Pueblo"
+                          - option "Yurok Tribe of the Yurok Reservation, California"
+                          - option "Zuni Tribe of the Zuni Reservation, New Mexico"
+                          - option "Native Village of Afognak"
+                          - option "Agdaagux Tribe of King Cove"
+                          - option "Native Village of Akhiok"
+                          - option "Akiachak Native Community"
+                          - option "Akiak Native Community"
+                          - option "Native Village of Akutan"
+                          - option "Village of Alakanuk"
+                          - option "Alatna Village"
+                          - option "Native Village of Aleknagik"
+                          - option "Algaaciq Native Village (St. Mary's)"
+                          - option "Allakaket Village"
+                          - option "Native Village of Ambler"
+                          - option "Village of Anaktuvuk Pass"
+                          - option "Yupiit of Andreafski"
+                          - option "Angoon Community Association"
+                          - option "Village of Aniak"
+                          - option "Anvik Village"
+                          - option "Arctic Village"
+                          - option "Asa'carsarmiut Tribe"
+                          - option "Native Village of Atka"
+                          - option "Village of Atmautluak"
+                          - option "Native Village of Atqasuk"
+                          - option "Native Village of Barrow Inupiat Traditional Government"
+                          - option "Beaver Village"
+                          - option "Native Village of Belkofski"
+                          - option "Village of Bill Moore's Slough"
+                          - option "Birch Creek Tribe"
+                          - option "Native Village of Brevig Mission"
+                          - option "Native Village of Buckland"
+                          - option "Native Village of Cantwell"
+                          - option "Native Village of Chenega (aka Chanega)"
+                          - option "Chalkyitsik Village"
+                          - option "Village of Chefornak"
+                          - option "Chevak Native Village"
+                          - option "Chickaloon Native Village"
+                          - option "Chignik Bay Tribal Council"
+                          - option "Native Village of Chignik Lagoon"
+                          - option "Chignik Lake Village"
+                          - option "Chilkat Indian Village (Klukwan)"
+                          - option "Chilkoot Indian Association (Haines)"
+                          - option "Chinik Eskimo Community (Golovin)"
+                          - option "Cheesh-Na Tribe"
+                          - option "Native Village of Chitina"
+                          - option "Native Village of Chuathbaluk (Russian Mission, Kuskokwim)"
+                          - option "Chuloonawick Native Village"
+                          - option "Circle Native Community"
+                          - option "Village of Clarks Point"
+                          - option "Native Village of Council"
+                          - option "Craig Tribal Association"
+                          - option "Village of Crooked Creek"
+                          - option "Curyung Tribal Council"
+                          - option "Native Village of Deering"
+                          - option "Native Village of Diomede (aka Inalik)"
+                          - option "Village of Dot Lake"
+                          - option "Douglas Indian Association"
+                          - option "Native Village of Eagle"
+                          - option "Native Village of Eek"
+                          - option "Egegik Village"
+                          - option "Eklutna Native Village"
+                          - option "Native Village of Ekuk"
+                          - option "Native Village of Ekwok"
+                          - option "Native Village of Elim"
+                          - option "Emmonak Village"
+                          - option "Evansville Village (aka Bettles Field)"
+                          - option "Native Village of Eyak (Cordova)"
+                          - option "Native Village of False Pass"
+                          - option "Native Village of Fort Yukon"
+                          - option "Native Village of Gakona"
+                          - option "Galena Village (aka Louden Village)"
+                          - option "Native Village of Gambell"
+                          - option "Native Village of Georgetown"
+                          - option "Native Village of Goodnews Bay"
+                          - option "Organized Village of Grayling (aka Holikachuk)"
+                          - option "Gulkana Village Council"
+                          - option "Native Village of Hamilton"
+                          - option "Healy Lake Village"
+                          - option "Holy Cross Tribe"
+                          - option "Hoonah Indian Association"
+                          - option "Native Village of Hooper Bay"
+                          - option "Hughes Village"
+                          - option "Huslia Village"
+                          - option "Hydaburg Cooperative Association"
+                          - option "Igiugig Village"
+                          - option "Village of Iliamna"
+                          - option "Inupiat Community of the Arctic Slope"
+                          - option "Iqugmiut Traditional Council"
+                          - option "Ivanof Bay Tribe"
+                          - option "Kaguyak Village"
+                          - option "Organized Village of Kake"
+                          - option "Kaktovik Village (aka Barter Island)"
+                          - option "Village of Kalskag"
+                          - option "Village of Kaltag"
+                          - option "Native Village of Kanatak"
+                          - option "Native Village of Karluk"
+                          - option "Organized Village of Kasaan"
+                          - option "Kasigluk Traditional Elders Council"
+                          - option "Kenaitze Indian Tribe"
+                          - option "Ketchikan Indian Community"
+                          - option "Native Village of Kiana"
+                          - option "King Island Native Community"
+                          - option "King Salmon Tribe"
+                          - option "Native Village of Kipnuk"
+                          - option "Native Village of Kivalina"
+                          - option "Klawock Cooperative Association"
+                          - option "Native Village of Kluti Kaah (aka Copper Center)"
+                          - option "Knik Tribe"
+                          - option "Native Village of Kobuk"
+                          - option "Kokhanok Village"
+                          - option "Native Village of Kongiganak"
+                          - option "Village of Kotlik"
+                          - option "Native Village of Kotzebue"
+                          - option "Native Village of Koyuk"
+                          - option "Koyukuk Native Village"
+                          - option "Organized Village of Kwethluk"
+                          - option "Native Village of Kwigillingok"
+                          - option "Native Village of Kwinhagak (aka Quinhagak)"
+                          - option "Native Village of Larsen Bay"
+                          - option "Levelock Village"
+                          - option "Tangirnaq Native Village"
+                          - option "Lime Village"
+                          - option "Village of Lower Kalskag"
+                          - option "Manley Hot Springs Village"
+                          - option "Manokotak Village"
+                          - option "Native Village of Marshall (aka Fortuna Ledge)"
+                          - option "Native Village of Mary's Igloo"
+                          - option "McGrath Native Village"
+                          - option "Native Village of Mekoryuk"
+                          - option "Mentasta Traditional Council"
+                          - option "Metlakatla Indian Community, Annette Island Reserve"
+                          - option "Native Village of Minto"
+                          - option "Naknek Native Village"
+                          - option "Native Village of Nanwalek (aka English Bay)"
+                          - option "Native Village of Napaimute"
+                          - option "Native Village of Napakiak"
+                          - option "Native Village of Napaskiak"
+                          - option "Native Village of Nelson Lagoon"
+                          - option "Nenana Native Association"
+                          - option "New Koliganek Village Council"
+                          - option "New Stuyahok Village"
+                          - option "Newhalen Village"
+                          - option "Newtok Village"
+                          - option "Native Village of Nightmute"
+                          - option "Nikolai Village"
+                          - option "Native Village of Nikolski"
+                          - option "Ninilchik Village"
+                          - option "Native Village of Noatak"
+                          - option "Nome Eskimo Community"
+                          - option "Nondalton Village"
+                          - option "Noorvik Native Community"
+                          - option "Northway Village"
+                          - option "Native Village of Nuiqsut (aka Nooiksut)"
+                          - option "Nulato Village"
+                          - option "Nunakauyarmiut Tribe"
+                          - option "Native Village of Nunapitchuk"
+                          - option "Village of Ohogamiut"
+                          - option "Alutiiq Tribe of Old Harbor"
+                          - option "Orutsararmiut Traditional Native Council"
+                          - option "Oscarville Traditional Village"
+                          - option "Native Village of Ouzinkie"
+                          - option "Native Village of Paimiut"
+                          - option "Pauloff Harbor Village"
+                          - option "Pedro Bay Village"
+                          - option "Native Village of Perryville"
+                          - option "Petersburg Indian Association"
+                          - option "Native Village of Pilot Point"
+                          - option "Pilot Station Traditional Village"
+                          - option "Pitka's Point Traditional Council"
+                          - option "Platinum Traditional Village"
+                          - option "Native Village of Point Hope"
+                          - option "Native Village of Point Lay"
+                          - option "Native Village of Port Graham"
+                          - option "Native Village of Port Heiden"
+                          - option "Native Village of Port Lions"
+                          - option "Portage Creek Village (aka Ohgsenakale)"
+                          - option "Qagan Tayagungin Tribe of Sand Point"
+                          - option "Qawalangin Tribe of Unalaska"
+                          - option "Rampart Village"
+                          - option "Village of Red Devil"
+                          - option "Native Village of Ruby"
+                          - option "Saint George Island"
+                          - option "Native Village of Saint Michael"
+                          - option "Saint Paul Island"
+                          - option "Salamatof Tribe"
+                          - option "Native Village of Savoonga"
+                          - option "Organized Village of Saxman"
+                          - option "Native Village of Scammon Bay"
+                          - option "Native Village of Selawik"
+                          - option "Seldovia Village Tribe"
+                          - option "Shageluk Native Village"
+                          - option "Native Village of Shaktoolik"
+                          - option "Native Village of Nunam Iqua"
+                          - option "Native Village of Shishmaref"
+                          - option "Sun'aq Tribe of Kodiak"
+                          - option "Native Village of Shungnak"
+                          - option "Sitka Tribe of Alaska"
+                          - option "Skagway Village"
+                          - option "Village of Sleetmute"
+                          - option "Village of Solomon"
+                          - option "South Naknek Village"
+                          - option "Stebbins Community Association"
+                          - option "Native Village of Stevens"
+                          - option "Village of Stony River"
+                          - option "Takotna Village"
+                          - option "Native Village of Tanacross"
+                          - option "Native Village of Tanana"
+                          - option "Native Village of Tatitlek"
+                          - option "Native Village of Tazlina"
+                          - option "Telida Village"
+                          - option "Native Village of Teller"
+                          - option "Native Village of Tetlin"
+                          - option "Central Council of the Tlingit & Haida Indian Tribes"
+                          - option "Traditional Village of Togiak"
+                          - option "Tuluksak Native Community"
+                          - option "Native Village of Tuntutuliak"
+                          - option "Native Village of Tununak"
+                          - option "Twin Hills Village"
+                          - option "Native Village of Tyonek"
+                          - option "Ugashik Village"
+                          - option "Umkumiut Native Village"
+                          - option "Native Village of Unalakleet"
+                          - option "Native Village of Unga"
+                          - option "Village of Venetie"
+                          - option "Village of Wainwright"
+                          - option "Native Village of Wales"
+                          - option "Native Village of White Mountain"
+                          - option "Wrangell Cooperative Association"
+                          - option "Yakutat Tlingit Tribe"
+                          - option "Chickahominy Indian Tribe"
+                          - option "Chickahominy Indian Tribe?Eastern Division"
+                          - option "Monacan Indian Nation"
+                          - option "Nansemond Indian Nation"
+                          - option "Rappahannock Tribe, Inc."
+                          - option "Upper Mattaponi Tribe"
+                          - option "Cowlitz Indian Tribe"
+                          - option "Little Shell Tribe of Chippewa Indians of Montana"
+                          - option "Mashpee Wampanoag Tribe"
+                          - option "Pamunkey Indian Tribe"
+                          - option "Shinnecock Indian Nation"
+                          - option "Wilton Rancheria, California"
+                          - option "Tejon Indian Tribe"
+                    - generic [ref=e288]:
+                      - generic [ref=e289]:
+                        - generic [ref=e290]: Preferred Language
+                        - combobox [ref=e296]:
+                          - option [selected]
+                          - option "English"
+                          - option "Spanish"
+                          - option "Other"
+                          - option "Patient Declined"
+                      - generic [ref=e297]:
+                        - generic [ref=e298]: Preferred Confidential Communication
+                        - combobox [ref=e304]:
+                          - option [selected]
+                          - option "Email"
+                          - option "Patient Portal"
+                          - option "Primary Phone"
+                          - option "Secondary Phone"
+                      - generic [ref=e309]:
+                        - checkbox "Military" [ref=e310]
+                        - text: Military
+                      - generic [ref=e311]:
+                        - generic [ref=e312]: Care Center
+                        - combobox [ref=e318]:
+                          - option [selected]
+                          - option "Caring Care Center"
+                      - generic [ref=e319]:
+                        - generic [ref=e320]: Previous First Name
+                        - textbox [ref=e327]
+                      - generic [ref=e328]:
+                        - generic [ref=e329]: Previous Middle Name
+                        - textbox [ref=e336]
+                      - generic [ref=e337]:
+                        - generic [ref=e338]: Previous Last Name
+                        - textbox [ref=e345]
+                      - generic [ref=e346]:
+                        - generic [ref=e347]: Date Name Was Changed
+                        - generic [ref=e352]:
+                          - textbox [ref=e354]
+                          - generic [ref=e355] [cursor=pointer]: 
+                      - generic [ref=e356]:
+                        - generic [ref=e357]: Occupation
+                        - combobox [ref=e363]:
+                          - option [selected]
+                          - option "Accountant"
+                          - option "Nurse"
+                          - option "Physician"
+                          - option "Therapist"
+                          - option "Tutor"
+                          - option "Truck Driver"
+                          - option "Bus Driver"
+                          - option "Laborer"
+                          - option "Electrician"
+                          - option "Plumber"
+                          - option "Cook"
+                          - option "Waiter"
+                          - option "Food Service Worker"
+                          - option "Software Developer"
+                          - option "IT Support"
+                          - option "Administrative Assistant"
+                          - option "Retail"
+                          - option "Cashier"
+                          - option "Salesperson"
+                          - option "Janitor"
+                          - option "Police Officer"
+                          - option "Security Guard"
+                          - option "Military"
+                          - option "Teacher/Instructor"
+                          - option "Lawyers, Judges, and Related Workers"
+                          - option "Other"
+                      - generic [ref=e364]:
+                        - generic [ref=e365]: Occupation Industry
+                        - combobox [ref=e371]:
+                          - option [selected]
+                          - option "Healthcare"
+                          - option "Education"
+                          - option "Transportation & Logistics"
+                          - option "Skilled Trades/Construction"
+                          - option "Food Services & Hospitality"
+                          - option "Manufacturing"
+                          - option "Information Technology"
+                          - option "Administrative & Office Support"
+                          - option "Retail & Sales"
+                          - option "Maintenance/Cleaning"
+                          - option "Law Enforcement/Security"
+                          - option "Military & Defense"
+                          - option "Professional Services"
+                          - option "Accounting & Finance"
+                          - option "Agriculture & Forestry"
+                          - option "Arts, Entertainment & Recreation"
+                          - option "Other"
+              - listitem [ref=e372]:
+                - tab "Contact Information" [expanded] [ref=e373] [cursor=pointer]: Contact Information
+                - tabpanel "Contact Information" [ref=e375]:
+                  - generic [ref=e377]:
+                    - generic [ref=e378]:
+                      - generic [ref=e379]: Primary Phone Number
+                      - generic [ref=e380]:
+                        - textbox [ref=e384]
+                        - combobox [ref=e389]:
+                          - option [selected]
+                          - option "Home"
+                          - option "Mobile"
+                          - option "Work"
+                    - generic [ref=e391]:
+                      - generic [ref=e392]: Secondary Phone Number
+                      - generic [ref=e393]:
+                        - textbox [ref=e397]
+                        - combobox [ref=e402]:
+                          - option [selected]
+                          - option "Home"
+                          - option "Mobile"
+                          - option "Work"
+                    - generic [ref=e404]:
+                      - generic [ref=e405]: Email
+                      - textbox [ref=e412]: Stanton_Krajcik-Wisoky76@yahoo.com
+                      - generic [ref=e416]:
+                        - checkbox "No Email" [ref=e417]
+                        - text: No Email
+                      - generic [ref=e423]:
+                        - checkbox "Enable Patient Messaging" [checked] [ref=e424]
+                        - text: Enable Patient Messaging
+                  - generic [ref=e426]:
+                    - generic [ref=e428]: Primary Address
+                    - generic [ref=e429]:
+                      - generic [ref=e430]: Address 1
+                      - textbox [ref=e437]
+                    - generic [ref=e438]:
+                      - generic [ref=e439]: Address 2
+                      - textbox [ref=e446]
+                    - generic [ref=e447]:
+                      - generic [ref=e448]: City
+                      - textbox [ref=e455]
+                    - generic [ref=e456]:
+                      - generic [ref=e457]: State
+                      - combobox [ref=e463]:
+                        - option [selected]
+                        - option "Alaska"
+                        - option "Alabama"
+                        - option "Arkansas"
+                        - option "Arizona"
+                        - option "California"
+                        - option "Colorado"
+                        - option "Connecticut"
+                        - option "Delaware"
+                        - option "Florida"
+                        - option "Georgia"
+                        - option "Hawaii"
+                        - option "Idaho"
+                        - option "Illinois"
+                        - option "Indiana"
+                        - option "Iowa"
+                        - option "Kansas"
+                        - option "Kentucky"
+                        - option "Louisiana"
+                        - option "Maine"
+                        - option "Maryland"
+                        - option "Massachusetts"
+                        - option "Michigan"
+                        - option "Minnesota"
+                        - option "Mississippi"
+                        - option "Missouri"
+                        - option "Montana"
+                        - option "Nebraska"
+                        - option "Nevada"
+                        - option "New Hampshire"
+                        - option "New Jersey"
+                        - option "New Mexico"
+                        - option "New York"
+                        - option "North Carolina"
+                        - option "North Dakota"
+                        - option "Ohio"
+                        - option "Oklahoma"
+                        - option "Oregon"
+                        - option "Pennsylvania"
+                        - option "Rhode Island"
+                        - option "South Carolina"
+                        - option "South Dakota"
+                        - option "Tennessee"
+                        - option "Texas"
+                        - option "Utah"
+                        - option "Vermont"
+                        - option "Virginia"
+                        - option "Washington"
+                        - option "West Virginia"
+                        - option "Wisconsin"
+                        - option "Wyoming"
+                        - option "District of Columbia"
+                        - option "Guam"
+                        - option "Virgin Islands"
+                        - option "Puerto Rico"
+                    - generic [ref=e464]:
+                      - generic [ref=e465]: Zip Code
+                      - generic [ref=e466]:
+                        - textbox [ref=e472]
+                        - generic [ref=e473]: "-"
+                        - textbox [ref=e479]
+                    - generic [ref=e480]:
+                      - generic [ref=e481]: County
+                      - combobox [ref=e487]:
+                        - option [selected]
+                  - generic [ref=e489]:
+                    - generic [ref=e491]: Secondary Address
+                    - generic [ref=e492]:
+                      - generic [ref=e493]: Address 1
+                      - textbox [ref=e500]
+                    - generic [ref=e501]:
+                      - generic [ref=e502]: Address 2
+                      - textbox [ref=e509]
+                    - generic [ref=e510]:
+                      - generic [ref=e511]: City
+                      - textbox [ref=e518]
+                    - generic [ref=e519]:
+                      - generic [ref=e520]: State
+                      - combobox [ref=e526]:
+                        - option [selected]
+                        - option "Alaska"
+                        - option "Alabama"
+                        - option "Arkansas"
+                        - option "Arizona"
+                        - option "California"
+                        - option "Colorado"
+                        - option "Connecticut"
+                        - option "Delaware"
+                        - option "Florida"
+                        - option "Georgia"
+                        - option "Hawaii"
+                        - option "Idaho"
+                        - option "Illinois"
+                        - option "Indiana"
+                        - option "Iowa"
+                        - option "Kansas"
+                        - option "Kentucky"
+                        - option "Louisiana"
+                        - option "Maine"
+                        - option "Maryland"
+                        - option "Massachusetts"
+                        - option "Michigan"
+                        - option "Minnesota"
+                        - option "Mississippi"
+                        - option "Missouri"
+                        - option "Montana"
+                        - option "Nebraska"
+                        - option "Nevada"
+                        - option "New Hampshire"
+                        - option "New Jersey"
+                        - option "New Mexico"
+                        - option "New York"
+                        - option "North Carolina"
+                        - option "North Dakota"
+                        - option "Ohio"
+                        - option "Oklahoma"
+                        - option "Oregon"
+                        - option "Pennsylvania"
+                        - option "Rhode Island"
+                        - option "South Carolina"
+                        - option "South Dakota"
+                        - option "Tennessee"
+                        - option "Texas"
+                        - option "Utah"
+                        - option "Vermont"
+                        - option "Virginia"
+                        - option "Washington"
+                        - option "West Virginia"
+                        - option "Wisconsin"
+                        - option "Wyoming"
+                        - option "District of Columbia"
+                        - option "Guam"
+                        - option "Virgin Islands"
+                        - option "Puerto Rico"
+                    - generic [ref=e527]:
+                      - generic [ref=e528]: Zip Code
+                      - generic [ref=e529]:
+                        - textbox [ref=e535]
+                        - generic [ref=e536]: "-"
+                        - textbox [ref=e542]
+                    - generic [ref=e543]:
+                      - generic [ref=e544]: County
+                      - combobox [ref=e550]:
+                        - option [selected]
+                  - generic [ref=e552]:
+                    - generic [ref=e554]: Previous Address
+                    - generic [ref=e555]:
+                      - generic [ref=e556]: Address 1
+                      - textbox [ref=e563]
+                    - generic [ref=e564]:
+                      - generic [ref=e565]: Address 2
+                      - textbox [ref=e572]
+                    - generic [ref=e573]:
+                      - generic [ref=e574]: City
+                      - textbox [ref=e581]
+                    - generic [ref=e582]:
+                      - generic [ref=e583]: State
+                      - combobox [ref=e589]:
+                        - option [selected]
+                        - option "Alaska"
+                        - option "Alabama"
+                        - option "Arkansas"
+                        - option "Arizona"
+                        - option "California"
+                        - option "Colorado"
+                        - option "Connecticut"
+                        - option "Delaware"
+                        - option "Florida"
+                        - option "Georgia"
+                        - option "Hawaii"
+                        - option "Idaho"
+                        - option "Illinois"
+                        - option "Indiana"
+                        - option "Iowa"
+                        - option "Kansas"
+                        - option "Kentucky"
+                        - option "Louisiana"
+                        - option "Maine"
+                        - option "Maryland"
+                        - option "Massachusetts"
+                        - option "Michigan"
+                        - option "Minnesota"
+                        - option "Mississippi"
+                        - option "Missouri"
+                        - option "Montana"
+                        - option "Nebraska"
+                        - option "Nevada"
+                        - option "New Hampshire"
+                        - option "New Jersey"
+                        - option "New Mexico"
+                        - option "New York"
+                        - option "North Carolina"
+                        - option "North Dakota"
+                        - option "Ohio"
+                        - option "Oklahoma"
+                        - option "Oregon"
+                        - option "Pennsylvania"
+                        - option "Rhode Island"
+                        - option "South Carolina"
+                        - option "South Dakota"
+                        - option "Tennessee"
+                        - option "Texas"
+                        - option "Utah"
+                        - option "Vermont"
+                        - option "Virginia"
+                        - option "Washington"
+                        - option "West Virginia"
+                        - option "Wisconsin"
+                        - option "Wyoming"
+                        - option "District of Columbia"
+                        - option "Guam"
+                        - option "Virgin Islands"
+                        - option "Puerto Rico"
+                    - generic [ref=e590]:
+                      - generic [ref=e591]: Zip Code
+                      - generic [ref=e592]:
+                        - textbox [ref=e598]
+                        - generic [ref=e599]: "-"
+                        - textbox [ref=e605]
+                    - generic [ref=e606]:
+                      - generic [ref=e607]: County
+                      - combobox [ref=e613]:
+                        - option [selected]
+              - listitem [ref=e614]:
+                - tab "Admission Information" [expanded] [ref=e615] [cursor=pointer]: Admission Information
+                - tabpanel "Admission Information" [ref=e617]:
+                  - generic [ref=e618]:
+                    - generic [ref=e619]:
+                      - generic [ref=e620]:
+                        - generic [ref=e621]: Facility
+                        - combobox [ref=e627]:
+                          - option [selected]
+                          - option "again"
+                          - option "again 2"
+                          - option "Hi Beth"
+                          - option "Hi Jack"
+                          - option "hi Kristen"
+                          - option "Hi Taylor"
+                          - option "Hi Tim"
+                          - option "Inpatient"
+                          - option "Main"
+                          - option "Outpatient"
+                          - option "Outpatient2 Electric Bugaloo"
+                          - option "patty 5"
+                          - option "Woundxepert"
+                        - generic [ref=e628]: Admission Date
+                        - generic [ref=e633]:
+                          - textbox [active] [ref=e635]: 03/03/2026
+                          - generic [ref=e636] [cursor=pointer]: 
+                      - generic [ref=e637]:
+                        - generic [ref=e641]:
+                          - checkbox "Consult" [ref=e642]
+                          - text: Consult
+                        - generic [ref=e646]:
+                          - checkbox "Palliative Care" [ref=e647]
+                          - text: Palliative Care
+                      - generic [ref=e648]:
+                        - generic [ref=e649]: Medicare Admission
+                        - combobox [ref=e654]:
+                          - option [selected]
+                          - option "No"
+                          - option "Yes"
+                      - generic [ref=e659]:
+                        - checkbox "Non Wound Diagnosis" [ref=e660]
+                        - text: Non Wound Diagnosis
+                    - generic [ref=e661]:
+                      - generic [ref=e662]:
+                        - generic [ref=e663]: New To Hospital
+                        - combobox [ref=e669]:
+                          - option [selected]
+                          - option "No"
+                          - option "Yes"
+                      - generic [ref=e670]:
+                        - generic [ref=e671]: Date of Inquiry
+                        - generic [ref=e676]:
+                          - textbox [ref=e678]
+                          - generic [ref=e679] [cursor=pointer]: 
+              - listitem [ref=e680]:
+                - tab "Care Providers and Instructions" [ref=e681] [cursor=pointer]: Care Providers and Instructions
+                - text:  |
+              - listitem [ref=e683]:
+                - tab "Insurance Information" [ref=e684] [cursor=pointer]: Insurance Information
+                - text:   
+              - listitem [ref=e686]:
+                - tab "Additional Documentation" [ref=e687] [cursor=pointer]: Additional Documentation
+              - listitem [ref=e689]:
+                - tab "Billing" [ref=e690] [cursor=pointer]: Billing
+                - text: 
+              - listitem [ref=e692]:
+                - tab "Notes" [ref=e693] [cursor=pointer]: Notes
+              - listitem [ref=e695]:
+                - tab "Photo" [ref=e696] [cursor=pointer]: Photo
+            - generic [ref=e699]:
+              - button "CANCEL" [ref=e700] [cursor=pointer]
+              - button "SAVE & START ENCOUNTER" [ref=e701] [cursor=pointer]
+              - button "SAVE" [ref=e702] [cursor=pointer]
+  - text:                                                                                                                         
+  - generic [ref=e703]:
+    - text:    
+    - table [ref=e705]:
+      - rowgroup [ref=e706]:
+        - row " March 2026 " [ref=e707]:
+          - columnheader "" [ref=e708] [cursor=pointer]:
+            - generic [ref=e709]: 
+          - columnheader "March 2026" [ref=e710] [cursor=pointer]
+          - columnheader "" [ref=e711] [cursor=pointer]:
+            - generic [ref=e712]: 
+        - row "Su Mo Tu We Th Fr Sa" [ref=e713]:
+          - columnheader "Su" [ref=e714] [cursor=pointer]
+          - columnheader "Mo" [ref=e715] [cursor=pointer]
+          - columnheader "Tu" [ref=e716] [cursor=pointer]
+          - columnheader "We" [ref=e717] [cursor=pointer]
+          - columnheader "Th" [ref=e718] [cursor=pointer]
+          - columnheader "Fr" [ref=e719] [cursor=pointer]
+          - columnheader "Sa" [ref=e720] [cursor=pointer]
+      - rowgroup [ref=e721]:
+        - row "22 23 24 25 26 27 28" [ref=e722]:
+          - cell "22" [ref=e723] [cursor=pointer]
+          - cell "23" [ref=e724] [cursor=pointer]
+          - cell "24" [ref=e725] [cursor=pointer]
+          - cell "25" [ref=e726] [cursor=pointer]
+          - cell "26" [ref=e727] [cursor=pointer]
+          - cell "27" [ref=e728] [cursor=pointer]
+          - cell "28" [ref=e729] [cursor=pointer]
+        - row "1 2 3 4 5 6 7" [ref=e730]:
+          - cell "1" [ref=e731] [cursor=pointer]
+          - cell "2" [ref=e732] [cursor=pointer]
+          - cell "3" [ref=e733] [cursor=pointer]
+          - cell "4" [ref=e734] [cursor=pointer]
+          - cell "5" [ref=e735] [cursor=pointer]
+          - cell "6" [ref=e736] [cursor=pointer]
+          - cell "7" [ref=e737] [cursor=pointer]
+        - row "8 9 10 11 12 13 14" [ref=e738]:
+          - cell "8" [ref=e739] [cursor=pointer]
+          - cell "9" [ref=e740] [cursor=pointer]
+          - cell "10" [ref=e741] [cursor=pointer]
+          - cell "11" [ref=e742] [cursor=pointer]
+          - cell "12" [ref=e743] [cursor=pointer]
+          - cell "13" [ref=e744] [cursor=pointer]
+          - cell "14" [ref=e745] [cursor=pointer]
+        - row "15 16 17 18 19 20 21" [ref=e746]:
+          - cell "15" [ref=e747] [cursor=pointer]
+          - cell "16" [ref=e748] [cursor=pointer]
+          - cell "17" [ref=e749] [cursor=pointer]
+          - cell "18" [ref=e750] [cursor=pointer]
+          - cell "19" [ref=e751] [cursor=pointer]
+          - cell "20" [ref=e752] [cursor=pointer]
+          - cell "21" [ref=e753] [cursor=pointer]
+        - row "22 23 24 25 26 27 28" [ref=e754]:
+          - cell "22" [ref=e755] [cursor=pointer]
+          - cell "23" [ref=e756] [cursor=pointer]
+          - cell "24" [ref=e757] [cursor=pointer]
+          - cell "25" [ref=e758] [cursor=pointer]
+          - cell "26" [ref=e759] [cursor=pointer]
+          - cell "27" [ref=e760] [cursor=pointer]
+          - cell "28" [ref=e761] [cursor=pointer]
+        - row "29 30 31 1 2 3 4" [ref=e762]:
+          - cell "29" [ref=e763] [cursor=pointer]
+          - cell "30" [ref=e764] [cursor=pointer]
+          - cell "31" [ref=e765] [cursor=pointer]
+          - cell "1" [ref=e766] [cursor=pointer]
+          - cell "2" [ref=e767] [cursor=pointer]
+          - cell "3" [ref=e768] [cursor=pointer]
+          - cell "4" [ref=e769] [cursor=pointer]
+      - rowgroup:
+        - row
+    - text:     
+  - text:                                                                  
+```

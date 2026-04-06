@@ -1,0 +1,723 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e2]:
+    - generic:
+      - text:             
+      - generic:
+        - navigation [ref=e3]:
+          - generic [ref=e4]: 
+          - text: Configured for PI and Quality | technical support | log out
+        - navigation [ref=e5]:
+          - navigation [ref=e6] [cursor=pointer]:
+            - listitem [ref=e7]
+          - list [ref=e9]:
+            - listitem [ref=e10]
+            - listitem [ref=e11]:
+              - button "Add Facility" [ref=e12]
+            - listitem [ref=e13]:
+              - link "89 Degrees Test" [ref=e14] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=e15]:
+              - link "Prabal Biswas" [ref=e16] [cursor=pointer]:
+                - /url: "#"
+                - img [ref=e17]
+                - text: Prabal Biswas
+    - generic [ref=e18]:
+      - list [ref=e20]:
+        - listitem [ref=e21] [cursor=pointer]:
+          - generic "Search" [ref=e22]: 
+        - listitem [ref=e23] [cursor=pointer]:
+          - generic "Calendar" [ref=e24]: 
+        - listitem [ref=e25] [cursor=pointer]: 
+        - listitem [ref=e26] [cursor=pointer]:
+          - generic "User Inbox" [ref=e27]: 
+          - generic [ref=e28]: "71"
+        - listitem [ref=e29] [cursor=pointer]:
+          - generic "My Reports" [ref=e30]: 
+        - listitem [ref=e31] [cursor=pointer]:
+          - generic "Worklist" [ref=e32]: 
+        - listitem [ref=e33] [cursor=pointer]:
+          - generic "Billing" [ref=e34]: 
+        - listitem [ref=e35] [cursor=pointer]:
+          - generic "Patient Messaging" [ref=e36]: 
+        - listitem [ref=e37] [cursor=pointer]
+        - listitem [ref=e38] [cursor=pointer]:
+          - generic "Facility Admin" [ref=e39]: 
+        - listitem [ref=e40] [cursor=pointer]:
+          - generic "NHS Admin" [ref=e41]: 
+        - listitem [ref=e42] [cursor=pointer]:
+          - img "Resource Center" [ref=e44]
+      - generic [ref=e46]:
+        - generic [ref=e47]:
+          - generic [ref=e48]:
+            - generic [ref=e49]: SEARCH
+            - button "+ Add New" [ref=e51] [cursor=pointer]
+          - generic [ref=e54]:
+            - textbox [ref=e55]
+            - generic [ref=e56]: 
+            - generic [ref=e57] [cursor=pointer]: 
+          - generic [ref=e58]:
+            - generic [ref=e59]:
+              - text: Search For
+              - combobox [ref=e60]:
+                - option "Patient" [selected]
+                - option "Physician"
+                - option "Clinician"
+                - option "Insurance"
+            - generic [ref=e61]:
+              - text: Search By
+              - combobox [ref=e62]:
+                - option "First Name"
+                - option "Last Name" [selected]
+                - option "Medical Record No."
+                - option "DOB (mmddyyyy)"
+                - option "Account Number"
+                - option "Phone Number"
+          - generic [ref=e63]:
+            - link "Show Inactive Patients" [ref=e65] [cursor=pointer]:
+              - /url: "#"
+            - button "Search" [ref=e67] [cursor=pointer]
+        - generic [ref=e69]:
+          - generic:
+            - generic:
+              - list
+      - main [ref=e73]:
+        - generic [ref=e74]:
+          - generic [ref=e76]:
+            - generic [ref=e78]: ×
+            - heading "Schedule Reserved Time" [level=2] [ref=e79]
+            - generic [ref=e81]:
+              - generic [ref=e82]:
+                - generic [ref=e83]:
+                  - generic [ref=e84]:
+                    - generic [ref=e85]: Event Title
+                    - generic [ref=e86]:
+                      - generic [ref=e89]:
+                        - group
+                        - textbox "Event Title" [active] [ref=e91]: Automation Test Event
+                      - generic [ref=e92]:
+                        - list
+                  - generic [ref=e93]:
+                    - generic [ref=e94]: Facility
+                    - button "again" [ref=e98] [cursor=pointer]:
+                      - group
+                      - generic [ref=e99]:
+                        - generic [ref=e101]: again
+                        - generic [ref=e104]: 
+                  - generic [ref=e106]:
+                    - generic [ref=e107]:
+                      - generic [ref=e108]: Background
+                      - button [ref=e109] [cursor=pointer]
+                    - generic [ref=e110]:
+                      - generic [ref=e111]: Font Color
+                      - button [ref=e112] [cursor=pointer]
+                - generic [ref=e113]:
+                  - generic [ref=e114]:
+                    - generic [ref=e115]: Start Date
+                    - generic [ref=e119]:
+                      - group
+                      - textbox "Start Date" [ref=e121]: 03/31/2026
+                      - generic [ref=e124]: 
+                  - generic [ref=e127]:
+                    - generic [ref=e128]: Start Time
+                    - generic [ref=e131]:
+                      - group
+                      - textbox "Start Time" [ref=e133]
+                      - button "" [ref=e136]
+                  - generic [ref=e137]: to
+                  - generic [ref=e138]:
+                    - generic [ref=e139]: End Date
+                    - generic [ref=e143]:
+                      - group
+                      - textbox "End Date" [ref=e145]: 03/31/2026
+                      - generic [ref=e148]: 
+                  - generic [ref=e151]:
+                    - generic [ref=e152]: End Time
+                    - generic [ref=e155]:
+                      - group
+                      - textbox "End Time" [ref=e157]
+                      - button "" [ref=e160]
+                  - generic [ref=e164] [cursor=pointer]:
+                    - generic [ref=e165]:
+                      - generic [ref=e166]: 
+                      - checkbox "All Day Event" [ref=e167]
+                    - generic [ref=e168]: All Day Event
+                  - generic [ref=e172] [cursor=pointer]:
+                    - generic [ref=e173]:
+                      - generic [ref=e174]: 
+                      - checkbox "Exclude from Capacity" [ref=e175]
+                    - generic [ref=e176]: Exclude from Capacity
+                - generic [ref=e181] [cursor=pointer]:
+                  - generic [ref=e182]:
+                    - generic [ref=e183]: 
+                    - checkbox "Recurring Event" [ref=e184]
+                  - generic [ref=e185]: Recurring Event
+                - heading "Resources" [level=3] [ref=e186]
+                - generic [ref=e187]:
+                  - generic [ref=e188]:
+                    - generic [ref=e189]: Physician
+                    - button [ref=e193] [cursor=pointer]:
+                      - group
+                      - generic [ref=e198]: 
+                  - generic [ref=e199]:
+                    - generic [ref=e200]: Clin
+                    - button [ref=e204] [cursor=pointer]:
+                      - group
+                      - generic [ref=e209]: 
+                  - generic [ref=e210]:
+                    - generic [ref=e211]: Room
+                    - button [ref=e215] [cursor=pointer]:
+                      - group
+                      - generic [ref=e220]: 
+                - generic [ref=e221]:
+                  - generic [ref=e223]: Notes
+                  - generic [ref=e224]: 0 / 2000
+                  - generic [ref=e228]:
+                    - group
+                    - textbox "Notes" [ref=e230]
+              - generic [ref=e231]:
+                - button "Cancel" [ref=e232] [cursor=pointer]
+                - button "Save" [ref=e233] [cursor=pointer]
+          - generic [ref=e235]:
+            - list [ref=e238]:
+              - listitem [ref=e239]:
+                - generic [ref=e240]: Schedule Encounter
+              - listitem [ref=e241]:
+                - generic [ref=e242]: "| Schedule Reserved Time"
+              - listitem [ref=e243]:
+                - generic [ref=e244]: "| System Messages"
+              - listitem [ref=e245]:
+                - generic [ref=e246]: "| Batch Utilities"
+                - list [ref=e247]:
+                  - listitem [ref=e248]:
+                    - generic [ref=e249]: Batch Print
+                  - listitem [ref=e250]:
+                    - generic [ref=e251]: Batch Upload
+                  - listitem [ref=e252]:
+                    - generic [ref=e253]: Batch Letters
+                  - listitem [ref=e254]:
+                    - generic [ref=e255]: Batch Finalize
+                  - listitem [ref=e256]:
+                    - generic [ref=e257]: Batch Discharge
+              - listitem [ref=e258]:
+                - generic [ref=e259]: "| Add"
+                - list [ref=e260]:
+                  - listitem [ref=e261]:
+                    - generic [ref=e262]: Add Patient
+                  - listitem [ref=e263]:
+                    - generic [ref=e264]: Add Physician
+                  - listitem [ref=e265]:
+                    - generic [ref=e266]: Add Insurance
+                  - listitem [ref=e267]:
+                    - generic [ref=e268]: Add Clinician
+                  - listitem [ref=e269]:
+                    - generic [ref=e270]: Add Care Center
+                  - listitem [ref=e271]:
+                    - generic [ref=e272]: Add Task
+                  - listitem [ref=e273]:
+                    - generic [ref=e274]: Add Physical Therapist
+              - listitem [ref=e275]:
+                - generic [ref=e276]: "| Scheduler Admin"
+                - list [ref=e277]:
+                  - listitem [ref=e278]:
+                    - generic [ref=e279]: Visit Type and Time Admin
+                  - listitem [ref=e280]:
+                    - generic [ref=e281]: Color Coding Admin
+                  - listitem [ref=e282]:
+                    - generic [ref=e283]: Visit Info Admin
+                  - listitem [ref=e284]:
+                    - generic [ref=e285]: Office Hours Admin
+                  - listitem [ref=e286]:
+                    - generic [ref=e287]: Cancellation Reason Admin
+                  - listitem [ref=e288]:
+                    - generic [ref=e289]: Calendar Filter Admin
+                  - listitem [ref=e290]:
+                    - generic [ref=e291]: Clinician Schedule Admin
+                  - listitem [ref=e292]:
+                    - generic [ref=e293]: Physician Schedule Admin
+                  - listitem [ref=e294]:
+                    - generic [ref=e295]: General Admin
+              - listitem [ref=e296]:
+                - generic [ref=e297]: "| Faxing"
+                - list [ref=e298]:
+                  - listitem [ref=e299]:
+                    - generic [ref=e300]: Inbound Faxing
+                  - listitem [ref=e301]:
+                    - generic [ref=e302]: Outbound Faxing
+            - generic:
+              - generic [ref=e303]:
+                - generic [ref=e304]:
+                  - generic [ref=e305]:
+                    - tablist [ref=e307]:
+                      - generic [ref=e309]:
+                        - tab "Calendar" [selected] [ref=e312] [cursor=pointer]
+                        - tab "Requests" [ref=e313] [cursor=pointer]: Requests
+                    - button [ref=e314] [cursor=pointer]:
+                      - generic [ref=e316]: 
+                  - generic [ref=e320]:
+                    - generic [ref=e321]:
+                      - generic [ref=e325]:
+                        - generic [ref=e326]:
+                          - button "Previous month" [ref=e327] [cursor=pointer]:
+                            - generic [ref=e329]: 
+                          - button "March 2026" [ref=e332] [cursor=pointer]
+                          - button "Next month" [ref=e333] [cursor=pointer]:
+                            - generic [ref=e335]: 
+                        - table [ref=e337]:
+                          - rowgroup [ref=e338]:
+                            - row "S M T W T F S" [ref=e339]:
+                              - columnheader "S" [ref=e340]
+                              - columnheader "M" [ref=e341]
+                              - columnheader "T" [ref=e342]
+                              - columnheader "W" [ref=e343]
+                              - columnheader "T" [ref=e344]
+                              - columnheader "F" [ref=e345]
+                              - columnheader "S" [ref=e346]
+                          - rowgroup [ref=e347]:
+                            - row "1 2 3 4 5 6 7" [ref=e348]:
+                              - cell "1" [ref=e349]:
+                                - button "1" [ref=e350] [cursor=pointer]:
+                                  - generic [ref=e351]: "1"
+                              - cell "2" [ref=e352]:
+                                - button "2" [ref=e353] [cursor=pointer]:
+                                  - generic [ref=e354]: "2"
+                              - cell "3" [ref=e355]:
+                                - button "3" [ref=e356] [cursor=pointer]:
+                                  - generic [ref=e357]: "3"
+                              - cell "4" [ref=e358]:
+                                - button "4" [ref=e359] [cursor=pointer]:
+                                  - generic [ref=e360]: "4"
+                              - cell "5" [ref=e361]:
+                                - button "5" [ref=e362] [cursor=pointer]:
+                                  - generic [ref=e363]: "5"
+                              - cell "6" [ref=e364]:
+                                - button "6" [ref=e365] [cursor=pointer]:
+                                  - generic [ref=e366]: "6"
+                              - cell "7" [ref=e367]:
+                                - button "7" [ref=e368] [cursor=pointer]:
+                                  - generic [ref=e369]: "7"
+                            - row "8 9 10 11 12 13 14" [ref=e370]:
+                              - cell "8" [ref=e371]:
+                                - button "8" [ref=e372] [cursor=pointer]:
+                                  - generic [ref=e373]: "8"
+                              - cell "9" [ref=e374]:
+                                - button "9" [ref=e375] [cursor=pointer]:
+                                  - generic [ref=e376]: "9"
+                              - cell "10" [ref=e377]:
+                                - button "10" [ref=e378] [cursor=pointer]:
+                                  - generic [ref=e379]: "10"
+                              - cell "11" [ref=e380]:
+                                - button "11" [ref=e381] [cursor=pointer]:
+                                  - generic [ref=e382]: "11"
+                              - cell "12" [ref=e383]:
+                                - button "12" [ref=e384] [cursor=pointer]:
+                                  - generic [ref=e385]: "12"
+                              - cell "13" [ref=e386]:
+                                - button "13" [ref=e387] [cursor=pointer]:
+                                  - generic [ref=e388]: "13"
+                              - cell "14" [ref=e389]:
+                                - button "14" [ref=e390] [cursor=pointer]:
+                                  - generic [ref=e391]: "14"
+                            - row "15 16 17 18 19 20 21" [ref=e392]:
+                              - cell "15" [ref=e393]:
+                                - button "15" [ref=e394] [cursor=pointer]:
+                                  - generic [ref=e395]: "15"
+                              - cell "16" [ref=e396]:
+                                - button "16" [ref=e397] [cursor=pointer]:
+                                  - generic [ref=e398]: "16"
+                              - cell "17" [ref=e399]:
+                                - button "17" [ref=e400] [cursor=pointer]:
+                                  - generic [ref=e401]: "17"
+                              - cell "18" [ref=e402]:
+                                - button "18" [ref=e403] [cursor=pointer]:
+                                  - generic [ref=e404]: "18"
+                              - cell "19" [ref=e405]:
+                                - button "19" [ref=e406] [cursor=pointer]:
+                                  - generic [ref=e407]: "19"
+                              - cell "20" [ref=e408]:
+                                - button "20" [ref=e409] [cursor=pointer]:
+                                  - generic [ref=e410]: "20"
+                              - cell "21" [ref=e411]:
+                                - button "21" [ref=e412] [cursor=pointer]:
+                                  - generic [ref=e413]: "21"
+                            - row "22 23 24 25 26 27 28" [ref=e414]:
+                              - cell "22" [ref=e415]:
+                                - button "22" [ref=e416] [cursor=pointer]:
+                                  - generic [ref=e417]: "22"
+                              - cell "23" [ref=e418]:
+                                - button "23" [ref=e419] [cursor=pointer]:
+                                  - generic [ref=e420]: "23"
+                              - cell "24" [ref=e421]:
+                                - button "24" [ref=e422] [cursor=pointer]:
+                                  - generic [ref=e423]: "24"
+                              - cell "25" [ref=e424]:
+                                - button "25" [ref=e425] [cursor=pointer]:
+                                  - generic [ref=e426]: "25"
+                              - cell "26" [ref=e427]:
+                                - button "26" [ref=e428] [cursor=pointer]:
+                                  - generic [ref=e429]: "26"
+                              - cell "27" [ref=e430]:
+                                - button "27" [ref=e431] [cursor=pointer]:
+                                  - generic [ref=e432]: "27"
+                              - cell "28" [ref=e433]:
+                                - button "28" [ref=e434] [cursor=pointer]:
+                                  - generic [ref=e435]: "28"
+                            - row "29 30 31 1 2 3 4" [ref=e436]:
+                              - cell "29" [ref=e437]:
+                                - button "29" [ref=e438] [cursor=pointer]:
+                                  - generic [ref=e439]: "29"
+                              - cell "30" [ref=e440]:
+                                - button "30" [ref=e441] [cursor=pointer]:
+                                  - generic [ref=e442]: "30"
+                              - cell "31" [ref=e443]:
+                                - button "31" [ref=e444] [cursor=pointer]:
+                                  - generic [ref=e445]: "31"
+                              - cell "1" [ref=e446]:
+                                - button "1" [ref=e447] [cursor=pointer]:
+                                  - generic [ref=e448]: "1"
+                              - cell "2" [ref=e449]:
+                                - button "2" [ref=e450] [cursor=pointer]:
+                                  - generic [ref=e451]: "2"
+                              - cell "3" [ref=e452]:
+                                - button "3" [ref=e453] [cursor=pointer]:
+                                  - generic [ref=e454]: "3"
+                              - cell "4" [ref=e455]:
+                                - button "4" [ref=e456] [cursor=pointer]:
+                                  - generic [ref=e457]: "4"
+                      - generic [ref=e459]:
+                        - button "Day" [ref=e460] [cursor=pointer]:
+                          - generic [ref=e461]: Day
+                        - button "Week" [ref=e462] [cursor=pointer]:
+                          - generic [ref=e463]: Week
+                        - button "List" [ref=e464] [cursor=pointer]:
+                          - generic [ref=e465]: List
+                        - button "Capacity" [ref=e466] [cursor=pointer]:
+                          - generic [ref=e467]: Capacity
+                      - link "Today - 03/31/2026" [ref=e470] [cursor=pointer]:
+                        - /url: "#"
+                    - generic [ref=e471]:
+                      - separator [ref=e472]
+                      - text: Filters
+                      - link "" [ref=e474] [cursor=pointer]:
+                        - /url: "#/myprofile/calendarFilterConfiguration"
+                        - generic [ref=e476]: 
+                    - button "Saved Filter" [ref=e480] [cursor=pointer]:
+                      - generic [ref=e481]:
+                        - generic: Saved Filter
+                        - generic [ref=e482]:
+                          - textbox "Saved Filter"
+                        - generic [ref=e485]: 
+                    - button "Column View Physician" [ref=e489] [cursor=pointer]:
+                      - generic [ref=e490]:
+                        - generic [ref=e491]: Column View
+                        - generic [ref=e492]:
+                          - generic [ref=e493]: Physician
+                          - textbox "Column View"
+                        - generic [ref=e496]: 
+                    - combobox [ref=e502]:
+                      - generic [ref=e503]:
+                        - generic: Facility
+                        - textbox "Facility" [ref=e505]
+                        - generic [ref=e508]: 
+                      - text:              
+                    - button "Physician" [ref=e514] [cursor=pointer]:
+                      - generic [ref=e515]:
+                        - generic: Physician
+                        - textbox "Physician" [ref=e517]
+                        - button [ref=e520]: 
+                    - text:  
+                    - combobox [ref=e526]:
+                      - generic [ref=e527]:
+                        - generic [ref=e528]: Encounter Type
+                        - generic [ref=e529]:
+                          - generic [ref=e530]: Wound Care
+                          - textbox "Encounter Type" [ref=e531]
+                        - button "clear icon" [ref=e534] [cursor=pointer]: 
+                        - generic [ref=e537]: 
+                      - text:          
+                    - generic [ref=e543] [cursor=pointer]:
+                      - generic [ref=e544]:
+                        - generic [ref=e545]: 
+                        - checkbox "Show Missed Encounters Show non-office hours" [ref=e546]
+                      - generic [ref=e547]: Show Missed Encounters
+                    - generic [ref=e551] [cursor=pointer]:
+                      - generic [ref=e552]:
+                        - generic [ref=e553]: 
+                        - checkbox [ref=e554]
+                      - generic [ref=e555]: Show non-office hours
+                    - generic [ref=e559] [cursor=pointer]:
+                      - generic [ref=e560]:
+                        - generic [ref=e561]: 
+                        - checkbox "Show Unavailable Physicians" [checked] [ref=e562]
+                      - generic [ref=e563]: Show Unavailable Physicians
+                    - generic [ref=e564]:
+                      - separator [ref=e565]
+                      - generic [ref=e566]:
+                        - text: Notes
+                        - generic [ref=e567]: Manage
+                    - generic [ref=e568]:
+                      - separator [ref=e569]
+                      - table [ref=e572]:
+                        - row "Visits (Non-Missed) 0" [ref=e573]:
+                          - cell "Visits (Non-Missed)" [ref=e574]
+                          - cell "0" [ref=e575]
+                      - separator [ref=e576]
+                      - text: Actions
+                    - button "Clear Physician Encounters" [ref=e578] [cursor=pointer]:
+                      - generic [ref=e579]: Clear Physician Encounters
+                    - button "Clear Filters" [ref=e581] [cursor=pointer]:
+                      - generic [ref=e582]: Clear Filters
+                - text: 
+              - generic [ref=e583]:
+                - generic [ref=e585]:
+                  - combobox [ref=e589]:
+                    - generic [ref=e592]: 
+                    - group
+                    - textbox "Patient's Next Appointment" [ref=e594]
+                  - generic [ref=e596]: 
+                  - generic [ref=e597]:
+                    - generic: 
+                  - generic [ref=e598]: "|"
+                  - generic [ref=e600]: 
+                - grid [ref=e610]:
+                  - rowgroup [ref=e614]:
+                    - row [ref=e624]
+                  - rowgroup [ref=e625]:
+                    - table [ref=e629]:
+                      - rowgroup [ref=e632]:
+                        - row [ref=e633]:
+                          - cell [ref=e634]:
+                            - generic [ref=e636]:
+                              - text: "7"
+                              - superscript [ref=e637]: AM
+                        - row [ref=e638]:
+                          - cell [ref=e639]
+                        - row [ref=e640]:
+                          - cell [ref=e641]
+                        - row [ref=e642]:
+                          - cell [ref=e643]
+                        - row [ref=e644]:
+                          - cell [ref=e645]:
+                            - generic [ref=e647]:
+                              - text: "8"
+                              - superscript [ref=e648]: AM
+                        - row [ref=e649]:
+                          - cell [ref=e650]
+                        - row [ref=e651]:
+                          - cell [ref=e652]
+                        - row [ref=e653]:
+                          - cell [ref=e654]
+                        - row [ref=e655]:
+                          - cell [ref=e656]:
+                            - generic [ref=e658]:
+                              - text: "9"
+                              - superscript [ref=e659]: AM
+                        - row [ref=e660]:
+                          - cell [ref=e661]
+                        - row [ref=e662]:
+                          - cell [ref=e663]
+                        - row [ref=e664]:
+                          - cell [ref=e665]
+                        - row [ref=e666]:
+                          - cell [ref=e667]:
+                            - generic [ref=e669]:
+                              - text: "10"
+                              - superscript [ref=e670]: AM
+                        - row [ref=e671]:
+                          - cell [ref=e672]
+                        - row [ref=e673]:
+                          - cell [ref=e674]
+                        - row [ref=e675]:
+                          - cell [ref=e676]
+                        - row [ref=e677]:
+                          - cell [ref=e678]:
+                            - generic [ref=e680]:
+                              - text: "11"
+                              - superscript [ref=e681]: AM
+                        - row [ref=e682]:
+                          - cell [ref=e683]
+                        - row [ref=e684]:
+                          - cell [ref=e685]
+                        - row [ref=e686]:
+                          - cell [ref=e687]
+                        - row [ref=e688]:
+                          - cell [ref=e689]:
+                            - generic [ref=e691]:
+                              - text: "12"
+                              - superscript [ref=e692]: PM
+                        - row [ref=e693]:
+                          - cell [ref=e694]
+                        - row [ref=e695]:
+                          - cell [ref=e696]
+                        - row [ref=e697]:
+                          - cell [ref=e698]
+                        - row [ref=e699]:
+                          - cell [ref=e700]:
+                            - generic [ref=e702]:
+                              - text: "1"
+                              - superscript [ref=e703]: PM
+                        - row [ref=e704]:
+                          - cell [ref=e705]
+                        - row [ref=e706]:
+                          - cell [ref=e707]
+                        - row [ref=e708]:
+                          - cell [ref=e709]
+                        - row [ref=e710]:
+                          - cell [ref=e711]:
+                            - generic [ref=e713]:
+                              - text: "2"
+                              - superscript [ref=e714]: PM
+                        - row [ref=e715]:
+                          - cell [ref=e716]
+                        - row [ref=e717]:
+                          - cell [ref=e718]
+                        - row [ref=e719]:
+                          - cell [ref=e720]
+                        - row [ref=e721]:
+                          - cell [ref=e722]:
+                            - generic [ref=e724]:
+                              - text: "3"
+                              - superscript [ref=e725]: PM
+                        - row [ref=e726]:
+                          - cell [ref=e727]
+                        - row [ref=e728]:
+                          - cell [ref=e729]
+                        - row [ref=e730]:
+                          - cell [ref=e731]
+                        - row [ref=e732]:
+                          - cell [ref=e733]:
+                            - generic [ref=e735]:
+                              - text: "4"
+                              - superscript [ref=e736]: PM
+                        - row [ref=e737]:
+                          - cell [ref=e738]
+                        - row [ref=e739]:
+                          - cell [ref=e740]
+                        - row [ref=e741]:
+                          - cell [ref=e742]
+                        - row [ref=e743]:
+                          - cell [ref=e744]:
+                            - generic [ref=e746]:
+                              - text: "5"
+                              - superscript [ref=e747]: PM
+                        - row [ref=e748]:
+                          - cell [ref=e749]
+                        - row [ref=e750]:
+                          - cell [ref=e751]
+                        - row [ref=e752]:
+                          - cell [ref=e753]
+                        - row [ref=e754]:
+                          - cell [ref=e755]:
+                            - generic [ref=e757]:
+                              - text: "6"
+                              - superscript [ref=e758]: PM
+                        - row [ref=e759]:
+                          - cell [ref=e760]
+                        - row [ref=e761]:
+                          - cell [ref=e762]
+                        - row [ref=e763]:
+                          - cell [ref=e764]
+                    - generic [ref=e769]:
+                      - table [ref=e771]:
+                        - rowgroup [ref=e772]:
+                          - row [ref=e773]:
+                            - cell [ref=e774]
+                          - row [ref=e775]:
+                            - cell [ref=e776]
+                          - row [ref=e777]:
+                            - cell [ref=e778]
+                          - row [ref=e779]:
+                            - cell [ref=e780]
+                          - row [ref=e781]:
+                            - cell [ref=e782]
+                          - row [ref=e783]:
+                            - cell [ref=e784]
+                          - row [ref=e785]:
+                            - cell [ref=e786]
+                          - row [ref=e787]:
+                            - cell [ref=e788]
+                          - row [ref=e789]:
+                            - cell [ref=e790]
+                          - row [ref=e791]:
+                            - cell [ref=e792]
+                          - row [ref=e793]:
+                            - cell [ref=e794]
+                          - row [ref=e795]:
+                            - cell [ref=e796]
+                          - row [ref=e797]:
+                            - cell [ref=e798]
+                          - row [ref=e799]:
+                            - cell [ref=e800]
+                          - row [ref=e801]:
+                            - cell [ref=e802]
+                          - row [ref=e803]:
+                            - cell [ref=e804]
+                          - row [ref=e805]:
+                            - cell [ref=e806]
+                          - row [ref=e807]:
+                            - cell [ref=e808]
+                          - row [ref=e809]:
+                            - cell [ref=e810]
+                          - row [ref=e811]:
+                            - cell [ref=e812]
+                          - row [ref=e813]:
+                            - cell [ref=e814]
+                          - row [ref=e815]:
+                            - cell [ref=e816]
+                          - row [ref=e817]:
+                            - cell [ref=e818]
+                          - row [ref=e819]:
+                            - cell [ref=e820]
+                          - row [ref=e821]:
+                            - cell [ref=e822]
+                          - row [ref=e823]:
+                            - cell [ref=e824]
+                          - row [ref=e825]:
+                            - cell [ref=e826]
+                          - row [ref=e827]:
+                            - cell [ref=e828]
+                          - row [ref=e829]:
+                            - cell [ref=e830]
+                          - row [ref=e831]:
+                            - cell [ref=e832]
+                          - row [ref=e833]:
+                            - cell [ref=e834]
+                          - row [ref=e835]:
+                            - cell [ref=e836]
+                          - row [ref=e837]:
+                            - cell [ref=e838]
+                          - row [ref=e839]:
+                            - cell [ref=e840]
+                          - row [ref=e841]:
+                            - cell [ref=e842]
+                          - row [ref=e843]:
+                            - cell [ref=e844]
+                          - row [ref=e845]:
+                            - cell [ref=e846]
+                          - row [ref=e847]:
+                            - cell [ref=e848]
+                          - row [ref=e849]:
+                            - cell [ref=e850]
+                          - row [ref=e851]:
+                            - cell [ref=e852]
+                          - row [ref=e853]:
+                            - cell [ref=e854]
+                          - row [ref=e855]:
+                            - cell [ref=e856]
+                          - row [ref=e857]:
+                            - cell [ref=e858]
+                          - row [ref=e859]:
+                            - cell [ref=e860]
+                          - row [ref=e861]:
+                            - cell [ref=e862]
+                          - row [ref=e863]:
+                            - cell [ref=e864]
+                          - row [ref=e865]:
+                            - cell [ref=e866]
+                          - row [ref=e867]:
+                            - cell [ref=e868]
+                      - row [ref=e872]
+  - text:                                                                                                   
+```

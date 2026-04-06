@@ -1,0 +1,846 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e2]:
+    - generic:
+      - text:             
+      - generic:
+        - navigation [ref=e3]:
+          - generic [ref=e4]: 
+          - text: Configured for PI and Quality | technical support | log out
+        - navigation [ref=e5]:
+          - navigation [ref=e6] [cursor=pointer]:
+            - listitem [ref=e7]
+          - list [ref=e9]:
+            - listitem [ref=e10]
+            - listitem [ref=e11]:
+              - button "Add Facility" [ref=e12]
+            - listitem [ref=e13]:
+              - link "89 Degrees Test" [ref=e14] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=e15]:
+              - link "Prabal Biswas" [ref=e16] [cursor=pointer]:
+                - /url: "#"
+                - img [ref=e17]
+                - text: Prabal Biswas
+    - generic [ref=e18]:
+      - list [ref=e20]:
+        - listitem [ref=e21] [cursor=pointer]:
+          - generic "Search" [ref=e22]: 
+        - listitem [ref=e23] [cursor=pointer]:
+          - generic "Calendar" [ref=e24]: 
+        - listitem [ref=e25] [cursor=pointer]: 
+        - listitem [ref=e26] [cursor=pointer]:
+          - generic "User Inbox" [ref=e27]: 
+          - generic [ref=e28]: "71"
+        - listitem [ref=e29] [cursor=pointer]:
+          - generic "My Reports" [ref=e30]: 
+        - listitem [ref=e31] [cursor=pointer]:
+          - generic "Worklist" [ref=e32]: 
+        - listitem [ref=e33] [cursor=pointer]:
+          - generic "Billing" [ref=e34]: 
+        - listitem [ref=e35] [cursor=pointer]:
+          - generic "Patient Messaging" [ref=e36]: 
+        - listitem [ref=e37] [cursor=pointer]
+        - listitem [ref=e38] [cursor=pointer]:
+          - generic "Facility Admin" [ref=e39]: 
+        - listitem [ref=e40] [cursor=pointer]:
+          - generic "NHS Admin" [ref=e41]: 
+        - listitem [ref=e42] [cursor=pointer]:
+          - img "Resource Center" [ref=e44]
+      - generic [ref=e46]:
+        - generic [ref=e47]:
+          - generic [ref=e48]:
+            - generic [ref=e49]: SEARCH
+            - button "+ Add New" [ref=e51] [cursor=pointer]
+          - generic [ref=e54]:
+            - textbox [ref=e55]
+            - generic [ref=e56]: 
+            - generic [ref=e57] [cursor=pointer]: 
+          - generic [ref=e58]:
+            - generic [ref=e59]:
+              - text: Search For
+              - combobox [ref=e60]:
+                - option "Patient" [selected]
+                - option "Physician"
+                - option "Clinician"
+                - option "Insurance"
+            - generic [ref=e61]:
+              - text: Search By
+              - combobox [ref=e62]:
+                - option "First Name"
+                - option "Last Name" [selected]
+                - option "Medical Record No."
+                - option "DOB (mmddyyyy)"
+                - option "Account Number"
+                - option "Phone Number"
+          - generic [ref=e63]:
+            - link "Show Inactive Patients" [ref=e65] [cursor=pointer]:
+              - /url: "#"
+            - button "Search" [ref=e67] [cursor=pointer]
+        - generic [ref=e69]:
+          - generic:
+            - generic:
+              - list
+      - main [ref=e73]:
+        - generic [ref=e76]:
+          - list [ref=e79]:
+            - listitem [ref=e80]:
+              - generic [ref=e81]: Schedule Encounter
+            - listitem [ref=e82]:
+              - generic [ref=e83]: "| Schedule Reserved Time"
+            - listitem [ref=e84]:
+              - generic [ref=e85]: "| System Messages"
+            - listitem [ref=e86]:
+              - generic [ref=e87]: "| Batch Utilities"
+              - list [ref=e88]:
+                - listitem [ref=e89]:
+                  - generic [ref=e90]: Batch Print
+                - listitem [ref=e91]:
+                  - generic [ref=e92]: Batch Upload
+                - listitem [ref=e93]:
+                  - generic [ref=e94]: Batch Letters
+                - listitem [ref=e95]:
+                  - generic [ref=e96]: Batch Finalize
+                - listitem [ref=e97]:
+                  - generic [ref=e98]: Batch Discharge
+            - listitem [ref=e99]:
+              - generic [ref=e100]: "| Add"
+              - list [ref=e101]:
+                - listitem [ref=e102]:
+                  - generic [active] [ref=e103] [cursor=pointer]: Add Patient
+                - listitem [ref=e104]:
+                  - generic [ref=e105]: Add Physician
+                - listitem [ref=e106]:
+                  - generic [ref=e107]: Add Insurance
+                - listitem [ref=e108]:
+                  - generic [ref=e109]: Add Clinician
+                - listitem [ref=e110]:
+                  - generic [ref=e111]: Add Care Center
+                - listitem [ref=e112]:
+                  - generic [ref=e113]: Add Task
+                - listitem [ref=e114]:
+                  - generic [ref=e115]: Add Physical Therapist
+            - listitem [ref=e116]:
+              - generic [ref=e117]: "| Scheduler Admin"
+              - list [ref=e118]:
+                - listitem [ref=e119]:
+                  - generic [ref=e120]: Visit Type and Time Admin
+                - listitem [ref=e121]:
+                  - generic [ref=e122]: Color Coding Admin
+                - listitem [ref=e123]:
+                  - generic [ref=e124]: Visit Info Admin
+                - listitem [ref=e125]:
+                  - generic [ref=e126]: Office Hours Admin
+                - listitem [ref=e127]:
+                  - generic [ref=e128]: Cancellation Reason Admin
+                - listitem [ref=e129]:
+                  - generic [ref=e130]: Calendar Filter Admin
+                - listitem [ref=e131]:
+                  - generic [ref=e132]: Clinician Schedule Admin
+                - listitem [ref=e133]:
+                  - generic [ref=e134]: Physician Schedule Admin
+                - listitem [ref=e135]:
+                  - generic [ref=e136]: General Admin
+            - listitem [ref=e137]:
+              - generic [ref=e138]: "| Faxing"
+              - list [ref=e139]:
+                - listitem [ref=e140]:
+                  - generic [ref=e141]: Inbound Faxing
+                - listitem [ref=e142]:
+                  - generic [ref=e143]: Outbound Faxing
+          - generic:
+            - generic [ref=e144]:
+              - generic [ref=e145]:
+                - generic [ref=e146]:
+                  - tablist [ref=e148]:
+                    - generic [ref=e150]:
+                      - tab "Calendar" [selected] [ref=e153] [cursor=pointer]
+                      - tab "Requests" [ref=e154] [cursor=pointer]: Requests
+                  - button [ref=e155] [cursor=pointer]:
+                    - generic [ref=e157]: 
+                - generic [ref=e161]:
+                  - generic [ref=e162]:
+                    - generic [ref=e166]:
+                      - generic [ref=e167]:
+                        - button "Previous month" [ref=e168] [cursor=pointer]:
+                          - generic [ref=e170]: 
+                        - button "March 2026" [ref=e173] [cursor=pointer]
+                        - button "Next month" [ref=e174] [cursor=pointer]:
+                          - generic [ref=e176]: 
+                      - table [ref=e178]:
+                        - rowgroup [ref=e179]:
+                          - row "S M T W T F S" [ref=e180]:
+                            - columnheader "S" [ref=e181]
+                            - columnheader "M" [ref=e182]
+                            - columnheader "T" [ref=e183]
+                            - columnheader "W" [ref=e184]
+                            - columnheader "T" [ref=e185]
+                            - columnheader "F" [ref=e186]
+                            - columnheader "S" [ref=e187]
+                        - rowgroup [ref=e188]:
+                          - row "1 2 3 4 5 6 7" [ref=e189]:
+                            - cell "1" [ref=e190]:
+                              - button "1" [ref=e191] [cursor=pointer]:
+                                - generic [ref=e192]: "1"
+                            - cell "2" [ref=e193]:
+                              - button "2" [ref=e194] [cursor=pointer]:
+                                - generic [ref=e195]: "2"
+                            - cell "3" [ref=e196]:
+                              - button "3" [ref=e197] [cursor=pointer]:
+                                - generic [ref=e198]: "3"
+                            - cell "4" [ref=e199]:
+                              - button "4" [ref=e200] [cursor=pointer]:
+                                - generic [ref=e201]: "4"
+                            - cell "5" [ref=e202]:
+                              - button "5" [ref=e203] [cursor=pointer]:
+                                - generic [ref=e204]: "5"
+                            - cell "6" [ref=e205]:
+                              - button "6" [ref=e206] [cursor=pointer]:
+                                - generic [ref=e207]: "6"
+                            - cell "7" [ref=e208]:
+                              - button "7" [ref=e209] [cursor=pointer]:
+                                - generic [ref=e210]: "7"
+                          - row "8 9 10 11 12 13 14" [ref=e211]:
+                            - cell "8" [ref=e212]:
+                              - button "8" [ref=e213] [cursor=pointer]:
+                                - generic [ref=e214]: "8"
+                            - cell "9" [ref=e215]:
+                              - button "9" [ref=e216] [cursor=pointer]:
+                                - generic [ref=e217]: "9"
+                            - cell "10" [ref=e218]:
+                              - button "10" [ref=e219] [cursor=pointer]:
+                                - generic [ref=e220]: "10"
+                            - cell "11" [ref=e221]:
+                              - button "11" [ref=e222] [cursor=pointer]:
+                                - generic [ref=e223]: "11"
+                            - cell "12" [ref=e224]:
+                              - button "12" [ref=e225] [cursor=pointer]:
+                                - generic [ref=e226]: "12"
+                            - cell "13" [ref=e227]:
+                              - button "13" [ref=e228] [cursor=pointer]:
+                                - generic [ref=e229]: "13"
+                            - cell "14" [ref=e230]:
+                              - button "14" [ref=e231] [cursor=pointer]:
+                                - generic [ref=e232]: "14"
+                          - row "15 16 17 18 19 20 21" [ref=e233]:
+                            - cell "15" [ref=e234]:
+                              - button "15" [ref=e235] [cursor=pointer]:
+                                - generic [ref=e236]: "15"
+                            - cell "16" [ref=e237]:
+                              - button "16" [ref=e238] [cursor=pointer]:
+                                - generic [ref=e239]: "16"
+                            - cell "17" [ref=e240]:
+                              - button "17" [ref=e241] [cursor=pointer]:
+                                - generic [ref=e242]: "17"
+                            - cell "18" [ref=e243]:
+                              - button "18" [ref=e244] [cursor=pointer]:
+                                - generic [ref=e245]: "18"
+                            - cell "19" [ref=e246]:
+                              - button "19" [ref=e247] [cursor=pointer]:
+                                - generic [ref=e248]: "19"
+                            - cell "20" [ref=e249]:
+                              - button "20" [ref=e250] [cursor=pointer]:
+                                - generic [ref=e251]: "20"
+                            - cell "21" [ref=e252]:
+                              - button "21" [ref=e253] [cursor=pointer]:
+                                - generic [ref=e254]: "21"
+                          - row "22 23 24 25 26 27 28" [ref=e255]:
+                            - cell "22" [ref=e256]:
+                              - button "22" [ref=e257] [cursor=pointer]:
+                                - generic [ref=e258]: "22"
+                            - cell "23" [ref=e259]:
+                              - button "23" [ref=e260] [cursor=pointer]:
+                                - generic [ref=e261]: "23"
+                            - cell "24" [ref=e262]:
+                              - button "24" [ref=e263] [cursor=pointer]:
+                                - generic [ref=e264]: "24"
+                            - cell "25" [ref=e265]:
+                              - button "25" [ref=e266] [cursor=pointer]:
+                                - generic [ref=e267]: "25"
+                            - cell "26" [ref=e268]:
+                              - button "26" [ref=e269] [cursor=pointer]:
+                                - generic [ref=e270]: "26"
+                            - cell "27" [ref=e271]:
+                              - button "27" [ref=e272] [cursor=pointer]:
+                                - generic [ref=e273]: "27"
+                            - cell "28" [ref=e274]:
+                              - button "28" [ref=e275] [cursor=pointer]:
+                                - generic [ref=e276]: "28"
+                          - row "29 30 31 1 2 3 4" [ref=e277]:
+                            - cell "29" [ref=e278]:
+                              - button "29" [ref=e279] [cursor=pointer]:
+                                - generic [ref=e280]: "29"
+                            - cell "30" [ref=e281]:
+                              - button "30" [ref=e282] [cursor=pointer]:
+                                - generic [ref=e283]: "30"
+                            - cell "31" [ref=e284]:
+                              - button "31" [ref=e285] [cursor=pointer]:
+                                - generic [ref=e286]: "31"
+                            - cell "1" [ref=e287]:
+                              - button "1" [ref=e288] [cursor=pointer]:
+                                - generic [ref=e289]: "1"
+                            - cell "2" [ref=e290]:
+                              - button "2" [ref=e291] [cursor=pointer]:
+                                - generic [ref=e292]: "2"
+                            - cell "3" [ref=e293]:
+                              - button "3" [ref=e294] [cursor=pointer]:
+                                - generic [ref=e295]: "3"
+                            - cell "4" [ref=e296]:
+                              - button "4" [ref=e297] [cursor=pointer]:
+                                - generic [ref=e298]: "4"
+                    - generic [ref=e300]:
+                      - button "Day" [ref=e301] [cursor=pointer]:
+                        - generic [ref=e302]: Day
+                      - button "Week" [ref=e303] [cursor=pointer]:
+                        - generic [ref=e304]: Week
+                      - button "List" [ref=e305] [cursor=pointer]:
+                        - generic [ref=e306]: List
+                      - button "Capacity" [ref=e307] [cursor=pointer]:
+                        - generic [ref=e308]: Capacity
+                    - link "Today - 03/30/2026" [ref=e311] [cursor=pointer]:
+                      - /url: "#"
+                  - generic [ref=e312]:
+                    - separator [ref=e313]
+                    - text: Filters
+                    - link "" [ref=e315] [cursor=pointer]:
+                      - /url: "#/myprofile/calendarFilterConfiguration"
+                      - generic [ref=e317]: 
+                  - button "Column View Physician" [ref=e321] [cursor=pointer]:
+                    - generic [ref=e322]:
+                      - generic [ref=e323]: Column View
+                      - generic [ref=e324]:
+                        - generic [ref=e325]: Physician
+                        - textbox "Column View"
+                      - generic [ref=e328]: 
+                  - combobox [ref=e334]:
+                    - generic [ref=e335]:
+                      - generic: Facility
+                      - textbox "Facility" [ref=e337]
+                      - generic [ref=e340]: 
+                    - text:              
+                  - button "Physician" [ref=e346] [cursor=pointer]:
+                    - generic [ref=e347]:
+                      - generic: Physician
+                      - textbox "Physician" [ref=e349]
+                      - button [ref=e352]: 
+                  - text:  
+                  - combobox [ref=e358]:
+                    - generic [ref=e359]:
+                      - generic: Encounter Type
+                      - textbox "Encounter Type" [ref=e361]
+                      - generic [ref=e364]: 
+                    - text:          
+                  - generic [ref=e370] [cursor=pointer]:
+                    - generic [ref=e371]:
+                      - generic [ref=e372]: 
+                      - checkbox "Show Missed Encounters Show non-office hours" [ref=e373]
+                    - generic [ref=e374]: Show Missed Encounters
+                  - generic [ref=e378] [cursor=pointer]:
+                    - generic [ref=e379]:
+                      - generic [ref=e380]: 
+                      - checkbox [ref=e381]
+                    - generic [ref=e382]: Show non-office hours
+                  - generic [ref=e386] [cursor=pointer]:
+                    - generic [ref=e387]:
+                      - generic [ref=e388]: 
+                      - checkbox "Show Unavailable Physicians" [checked] [ref=e389]
+                    - generic [ref=e390]: Show Unavailable Physicians
+                  - generic [ref=e391]:
+                    - separator [ref=e392]
+                    - generic [ref=e393]:
+                      - text: Notes
+                      - generic [ref=e394]: Manage
+                  - generic [ref=e395]:
+                    - separator [ref=e396]
+                    - table [ref=e399]:
+                      - row "Visits (Non-Missed) 0" [ref=e400]:
+                        - cell "Visits (Non-Missed)" [ref=e401]
+                        - cell "0" [ref=e402]
+                    - separator [ref=e403]
+                    - text: Actions
+                  - button "Clear Physician Encounters" [ref=e405] [cursor=pointer]:
+                    - generic [ref=e406]: Clear Physician Encounters
+                  - button "Clear Filters" [ref=e408] [cursor=pointer]:
+                    - generic [ref=e409]: Clear Filters
+              - text: 
+            - generic [ref=e410]:
+              - generic [ref=e412]:
+                - combobox [ref=e416]:
+                  - generic [ref=e419]: 
+                  - group
+                  - textbox "Patient's Next Appointment" [ref=e421]
+                - generic [ref=e423]: 
+                - generic [ref=e424]:
+                  - generic: 
+                - generic [ref=e425]: "|"
+                - generic [ref=e427]: 
+              - grid [ref=e437]:
+                - rowgroup [ref=e441]:
+                  - row [ref=e451]
+                - rowgroup [ref=e452]:
+                  - table [ref=e456]:
+                    - rowgroup [ref=e459]:
+                      - row [ref=e460]:
+                        - cell [ref=e461]:
+                          - generic [ref=e463]:
+                            - text: "12"
+                            - superscript [ref=e464]: AM
+                      - row [ref=e465]:
+                        - cell [ref=e466]
+                      - row [ref=e467]:
+                        - cell [ref=e468]
+                      - row [ref=e469]:
+                        - cell [ref=e470]
+                      - row [ref=e471]:
+                        - cell [ref=e472]:
+                          - generic [ref=e474]:
+                            - text: "1"
+                            - superscript [ref=e475]: AM
+                      - row [ref=e476]:
+                        - cell [ref=e477]
+                      - row [ref=e478]:
+                        - cell [ref=e479]
+                      - row [ref=e480]:
+                        - cell [ref=e481]
+                      - row [ref=e482]:
+                        - cell [ref=e483]:
+                          - generic [ref=e485]:
+                            - text: "2"
+                            - superscript [ref=e486]: AM
+                      - row [ref=e487]:
+                        - cell [ref=e488]
+                      - row [ref=e489]:
+                        - cell [ref=e490]
+                      - row [ref=e491]:
+                        - cell [ref=e492]
+                      - row [ref=e493]:
+                        - cell [ref=e494]:
+                          - generic [ref=e496]:
+                            - text: "3"
+                            - superscript [ref=e497]: AM
+                      - row [ref=e498]:
+                        - cell [ref=e499]
+                      - row [ref=e500]:
+                        - cell [ref=e501]
+                      - row [ref=e502]:
+                        - cell [ref=e503]
+                      - row [ref=e504]:
+                        - cell [ref=e505]:
+                          - generic [ref=e507]:
+                            - text: "4"
+                            - superscript [ref=e508]: AM
+                      - row [ref=e509]:
+                        - cell [ref=e510]
+                      - row [ref=e511]:
+                        - cell [ref=e512]
+                      - row [ref=e513]:
+                        - cell [ref=e514]
+                      - row [ref=e515]:
+                        - cell [ref=e516]:
+                          - generic [ref=e518]:
+                            - text: "5"
+                            - superscript [ref=e519]: AM
+                      - row [ref=e520]:
+                        - cell [ref=e521]
+                      - row [ref=e522]:
+                        - cell [ref=e523]
+                      - row [ref=e524]:
+                        - cell [ref=e525]
+                      - row [ref=e526]:
+                        - cell [ref=e527]:
+                          - generic [ref=e529]:
+                            - text: "6"
+                            - superscript [ref=e530]: AM
+                      - row [ref=e531]:
+                        - cell [ref=e532]
+                      - row [ref=e533]:
+                        - cell [ref=e534]
+                      - row [ref=e535]:
+                        - cell [ref=e536]
+                      - row [ref=e537]:
+                        - cell [ref=e538]:
+                          - generic [ref=e540]:
+                            - text: "7"
+                            - superscript [ref=e541]: AM
+                      - row [ref=e542]:
+                        - cell [ref=e543]
+                      - row [ref=e544]:
+                        - cell [ref=e545]
+                      - row [ref=e546]:
+                        - cell [ref=e547]
+                      - row [ref=e548]:
+                        - cell [ref=e549]:
+                          - generic [ref=e551]:
+                            - text: "8"
+                            - superscript [ref=e552]: AM
+                      - row [ref=e553]:
+                        - cell [ref=e554]
+                      - row [ref=e555]:
+                        - cell [ref=e556]
+                      - row [ref=e557]:
+                        - cell [ref=e558]
+                      - row [ref=e559]:
+                        - cell [ref=e560]:
+                          - generic [ref=e562]:
+                            - text: "9"
+                            - superscript [ref=e563]: AM
+                      - row [ref=e564]:
+                        - cell [ref=e565]
+                      - row [ref=e566]:
+                        - cell [ref=e567]
+                      - row [ref=e568]:
+                        - cell [ref=e569]
+                      - row [ref=e570]:
+                        - cell [ref=e571]:
+                          - generic [ref=e573]:
+                            - text: "10"
+                            - superscript [ref=e574]: AM
+                      - row [ref=e575]:
+                        - cell [ref=e576]
+                      - row [ref=e577]:
+                        - cell [ref=e578]
+                      - row [ref=e579]:
+                        - cell [ref=e580]
+                      - row [ref=e581]:
+                        - cell [ref=e582]:
+                          - generic [ref=e584]:
+                            - text: "11"
+                            - superscript [ref=e585]: AM
+                      - row [ref=e586]:
+                        - cell [ref=e587]
+                      - row [ref=e588]:
+                        - cell [ref=e589]
+                      - row [ref=e590]:
+                        - cell [ref=e591]
+                      - row [ref=e592]:
+                        - cell [ref=e593]:
+                          - generic [ref=e595]:
+                            - text: "12"
+                            - superscript [ref=e596]: PM
+                      - row [ref=e597]:
+                        - cell [ref=e598]
+                      - row [ref=e599]:
+                        - cell [ref=e600]
+                      - row [ref=e601]:
+                        - cell [ref=e602]
+                      - row [ref=e603]:
+                        - cell [ref=e604]:
+                          - generic [ref=e606]:
+                            - text: "1"
+                            - superscript [ref=e607]: PM
+                      - row [ref=e608]:
+                        - cell [ref=e609]
+                      - row [ref=e610]:
+                        - cell [ref=e611]
+                      - row [ref=e612]:
+                        - cell [ref=e613]
+                      - row [ref=e614]:
+                        - cell [ref=e615]:
+                          - generic [ref=e617]:
+                            - text: "2"
+                            - superscript [ref=e618]: PM
+                      - row [ref=e619]:
+                        - cell [ref=e620]
+                      - row [ref=e621]:
+                        - cell [ref=e622]
+                      - row [ref=e623]:
+                        - cell [ref=e624]
+                      - row [ref=e625]:
+                        - cell [ref=e626]:
+                          - generic [ref=e628]:
+                            - text: "3"
+                            - superscript [ref=e629]: PM
+                      - row [ref=e630]:
+                        - cell [ref=e631]
+                      - row [ref=e632]:
+                        - cell [ref=e633]
+                      - row [ref=e634]:
+                        - cell [ref=e635]
+                      - row [ref=e636]:
+                        - cell [ref=e637]:
+                          - generic [ref=e639]:
+                            - text: "4"
+                            - superscript [ref=e640]: PM
+                      - row [ref=e641]:
+                        - cell [ref=e642]
+                      - row [ref=e643]:
+                        - cell [ref=e644]
+                      - row [ref=e645]:
+                        - cell [ref=e646]
+                      - row [ref=e647]:
+                        - cell [ref=e648]:
+                          - generic [ref=e650]:
+                            - text: "5"
+                            - superscript [ref=e651]: PM
+                      - row [ref=e652]:
+                        - cell [ref=e653]
+                      - row [ref=e654]:
+                        - cell [ref=e655]
+                      - row [ref=e656]:
+                        - cell [ref=e657]
+                      - row [ref=e658]:
+                        - cell [ref=e659]:
+                          - generic [ref=e661]:
+                            - text: "6"
+                            - superscript [ref=e662]: PM
+                      - row [ref=e663]:
+                        - cell [ref=e664]
+                      - row [ref=e665]:
+                        - cell [ref=e666]
+                      - row [ref=e667]:
+                        - cell [ref=e668]
+                      - row [ref=e669]:
+                        - cell [ref=e670]:
+                          - generic [ref=e672]:
+                            - text: "7"
+                            - superscript [ref=e673]: PM
+                      - row [ref=e674]:
+                        - cell [ref=e675]
+                      - row [ref=e676]:
+                        - cell [ref=e677]
+                      - row [ref=e678]:
+                        - cell [ref=e679]
+                      - row [ref=e680]:
+                        - cell [ref=e681]:
+                          - generic [ref=e683]:
+                            - text: "8"
+                            - superscript [ref=e684]: PM
+                      - row [ref=e685]:
+                        - cell [ref=e686]
+                      - row [ref=e687]:
+                        - cell [ref=e688]
+                      - row [ref=e689]:
+                        - cell [ref=e690]
+                      - row [ref=e691]:
+                        - cell [ref=e692]:
+                          - generic [ref=e694]:
+                            - text: "9"
+                            - superscript [ref=e695]: PM
+                      - row [ref=e696]:
+                        - cell [ref=e697]
+                      - row [ref=e698]:
+                        - cell [ref=e699]
+                      - row [ref=e700]:
+                        - cell [ref=e701]
+                      - row [ref=e702]:
+                        - cell [ref=e703]:
+                          - generic [ref=e705]:
+                            - text: "10"
+                            - superscript [ref=e706]: PM
+                      - row [ref=e707]:
+                        - cell [ref=e708]
+                      - row [ref=e709]:
+                        - cell [ref=e710]
+                      - row [ref=e711]:
+                        - cell [ref=e712]
+                      - row [ref=e713]:
+                        - cell [ref=e714]:
+                          - generic [ref=e716]:
+                            - text: "11"
+                            - superscript [ref=e717]: PM
+                      - row [ref=e718]:
+                        - cell [ref=e719]
+                      - row [ref=e720]:
+                        - cell [ref=e721]
+                      - row [ref=e722]:
+                        - cell [ref=e723]
+                  - generic [ref=e728]:
+                    - table [ref=e730]:
+                      - rowgroup [ref=e731]:
+                        - row [ref=e732]:
+                          - cell [ref=e733]
+                        - row [ref=e734]:
+                          - cell [ref=e735]
+                        - row [ref=e736]:
+                          - cell [ref=e737]
+                        - row [ref=e738]:
+                          - cell [ref=e739]
+                        - row [ref=e740]:
+                          - cell [ref=e741]
+                        - row [ref=e742]:
+                          - cell [ref=e743]
+                        - row [ref=e744]:
+                          - cell [ref=e745]
+                        - row [ref=e746]:
+                          - cell [ref=e747]
+                        - row [ref=e748]:
+                          - cell [ref=e749]
+                        - row [ref=e750]:
+                          - cell [ref=e751]
+                        - row [ref=e752]:
+                          - cell [ref=e753]
+                        - row [ref=e754]:
+                          - cell [ref=e755]
+                        - row [ref=e756]:
+                          - cell [ref=e757]
+                        - row [ref=e758]:
+                          - cell [ref=e759]
+                        - row [ref=e760]:
+                          - cell [ref=e761]
+                        - row [ref=e762]:
+                          - cell [ref=e763]
+                        - row [ref=e764]:
+                          - cell [ref=e765]
+                        - row [ref=e766]:
+                          - cell [ref=e767]
+                        - row [ref=e768]:
+                          - cell [ref=e769]
+                        - row [ref=e770]:
+                          - cell [ref=e771]
+                        - row [ref=e772]:
+                          - cell [ref=e773]
+                        - row [ref=e774]:
+                          - cell [ref=e775]
+                        - row [ref=e776]:
+                          - cell [ref=e777]
+                        - row [ref=e778]:
+                          - cell [ref=e779]
+                        - row [ref=e780]:
+                          - cell [ref=e781]
+                        - row [ref=e782]:
+                          - cell [ref=e783]
+                        - row [ref=e784]:
+                          - cell [ref=e785]
+                        - row [ref=e786]:
+                          - cell [ref=e787]
+                        - row [ref=e788]:
+                          - cell [ref=e789]
+                        - row [ref=e790]:
+                          - cell [ref=e791]
+                        - row [ref=e792]:
+                          - cell [ref=e793]
+                        - row [ref=e794]:
+                          - cell [ref=e795]
+                        - row [ref=e796]:
+                          - cell [ref=e797]
+                        - row [ref=e798]:
+                          - cell [ref=e799]
+                        - row [ref=e800]:
+                          - cell [ref=e801]
+                        - row [ref=e802]:
+                          - cell [ref=e803]
+                        - row [ref=e804]:
+                          - cell [ref=e805]
+                        - row [ref=e806]:
+                          - cell [ref=e807]
+                        - row [ref=e808]:
+                          - cell [ref=e809]
+                        - row [ref=e810]:
+                          - cell [ref=e811]
+                        - row [ref=e812]:
+                          - cell [ref=e813]
+                        - row [ref=e814]:
+                          - cell [ref=e815]
+                        - row [ref=e816]:
+                          - cell [ref=e817]
+                        - row [ref=e818]:
+                          - cell [ref=e819]
+                        - row [ref=e820]:
+                          - cell [ref=e821]
+                        - row [ref=e822]:
+                          - cell [ref=e823]
+                        - row [ref=e824]:
+                          - cell [ref=e825]
+                        - row [ref=e826]:
+                          - cell [ref=e827]
+                        - row [ref=e828]:
+                          - cell [ref=e829]
+                        - row [ref=e830]:
+                          - cell [ref=e831]
+                        - row [ref=e832]:
+                          - cell [ref=e833]
+                        - row [ref=e834]:
+                          - cell [ref=e835]
+                        - row [ref=e836]:
+                          - cell [ref=e837]
+                        - row [ref=e838]:
+                          - cell [ref=e839]
+                        - row [ref=e840]:
+                          - cell [ref=e841]
+                        - row [ref=e842]:
+                          - cell [ref=e843]
+                        - row [ref=e844]:
+                          - cell [ref=e845]
+                        - row [ref=e846]:
+                          - cell [ref=e847]
+                        - row [ref=e848]:
+                          - cell [ref=e849]
+                        - row [ref=e850]:
+                          - cell [ref=e851]
+                        - row [ref=e852]:
+                          - cell [ref=e853]
+                        - row [ref=e854]:
+                          - cell [ref=e855]
+                        - row [ref=e856]:
+                          - cell [ref=e857]
+                        - row [ref=e858]:
+                          - cell [ref=e859]
+                        - row [ref=e860]:
+                          - cell [ref=e861]
+                        - row [ref=e862]:
+                          - cell [ref=e863]
+                        - row [ref=e864]:
+                          - cell [ref=e865]
+                        - row [ref=e866]:
+                          - cell [ref=e867]
+                        - row [ref=e868]:
+                          - cell [ref=e869]
+                        - row [ref=e870]:
+                          - cell [ref=e871]
+                        - row [ref=e872]:
+                          - cell [ref=e873]
+                        - row [ref=e874]:
+                          - cell [ref=e875]
+                        - row [ref=e876]:
+                          - cell [ref=e877]
+                        - row [ref=e878]:
+                          - cell [ref=e879]
+                        - row [ref=e880]:
+                          - cell [ref=e881]
+                        - row [ref=e882]:
+                          - cell [ref=e883]
+                        - row [ref=e884]:
+                          - cell [ref=e885]
+                        - row [ref=e886]:
+                          - cell [ref=e887]
+                        - row [ref=e888]:
+                          - cell [ref=e889]
+                        - row [ref=e890]:
+                          - cell [ref=e891]
+                        - row [ref=e892]:
+                          - cell [ref=e893]
+                        - row [ref=e894]:
+                          - cell [ref=e895]
+                        - row [ref=e896]:
+                          - cell [ref=e897]
+                        - row [ref=e898]:
+                          - cell [ref=e899]
+                        - row [ref=e900]:
+                          - cell [ref=e901]
+                        - row [ref=e902]:
+                          - cell [ref=e903]
+                        - row [ref=e904]:
+                          - cell [ref=e905]
+                        - row [ref=e906]:
+                          - cell [ref=e907]
+                        - row [ref=e908]:
+                          - cell [ref=e909]
+                        - row [ref=e910]:
+                          - cell [ref=e911]
+                        - row [ref=e912]:
+                          - cell [ref=e913]
+                        - row [ref=e914]:
+                          - cell [ref=e915]
+                        - row [ref=e916]:
+                          - cell [ref=e917]
+                        - row [ref=e918]:
+                          - cell [ref=e919]
+                        - row [ref=e920]:
+                          - cell [ref=e921]
+                        - row [ref=e922]:
+                          - cell [ref=e923]
+                    - row [ref=e927]
+  - text:                                                                                                   
+```
